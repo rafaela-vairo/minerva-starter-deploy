@@ -1,1 +1,1 @@
-# minerva-starter-kit
+# Minerva Starter Kit
