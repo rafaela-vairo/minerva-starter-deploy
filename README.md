@@ -1,1 +1,3 @@
 # Minerva Starter Kit
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus ullamcorper mi non interdum. Aenean tempor tempor odio, posuere vulputate leo cursus non. Nulla maximus, risus nec pulvinar ullamcorper, nisl purus vulputate lacus, sit amet porttitor turpis lorem at arcu. Fusce blandit placerat ultricies. Sed consequat placerat ante, eu rutrum risus vehicula ac. In sit amet congue tellus, pellentesque maximus massa. Nam augue metus, feugiat quis tristique in, sodales non nibh.
