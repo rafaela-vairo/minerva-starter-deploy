@@ -8,7 +8,6 @@ export default ({ data }) => {
   console.log(data)
   return (
     <Layout>
-      <Header />
       <div>
         <h1
           css={css`

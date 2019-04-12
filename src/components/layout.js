@@ -1,7 +1,6 @@
 import React from "react"
 import { css } from "@emotion/core"
 import { StaticQuery, Link, graphql } from "gatsby"
-import Container from "../components/container"
 import { rhythm } from "../utils/typography"
 
 export default ({ children }) => (
@@ -48,8 +47,4 @@ export default ({ children }) => (
       </div>
     )}
   />
-  <Container>
-    <h1>About CSS Modules</h1>
-    <p>CSS Modules are cool</p>
-  </Container>
 )
