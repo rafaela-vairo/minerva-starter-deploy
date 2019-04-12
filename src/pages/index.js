@@ -44,7 +44,7 @@ export default ({ data }) => {
         <p><button type="submit">Send</button></p> 
       </form>
 
-      <form name="contact" method="POST" data-netlify="true" action="/">
+      <form name="contact" method="POST" data-netlify="true" action="/about">
         <p>
           <label>Your Name: <input type="text" name="name" /></label>   
         </p>
