@@ -1,0 +1,23 @@
+.hero {
+  grid-column: 1 / span 5;
+  grid-row-start: 1;
+  height: 70vh;
+  background-image: url(../images/backgroundSIQb.jpg);
+  background-size: cover;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  @media (min-width: 721px) {
+    height: 100vh;
+  }
+  > img {
+    display: flex;
+    margin: auto;
+    @media (min-width: 721px) and (min-height: 721px) {
+      margin-top: 20vh;
+      width: 50%;
+      max-width: 350px;
+    }
+    margin-top: 20vw;
+    width: 70vw;
+  }
+}

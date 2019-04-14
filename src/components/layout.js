@@ -1,50 +1,25 @@
 import React from "react"
-import { css } from "@emotion/core"
-import { StaticQuery, Link, graphql } from "gatsby"
-import { rhythm } from "../utils/typography"
+import Navbar from "./nav"
+import Footer from "./footer"
 
-export default ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            }
-          }
-        }
-      `
-    }
-    render={data => (
-      <div
-        css={css`
-          margin: 0 auto;
-          max-width: 700px;
-          padding: ${rhythm(2)};
-          padding-top: ${rhythm(1.5)};
-        `}
-      >
-        <Link to={`/`}>
-          <h3
-            css={css`
-              margin-bottom: ${rhythm(2)};
-              display: inline-block;
-              font-style: normal;
-            `}
-          >
-            {data.site.siteMetadata.title}
-          </h3>
-        </Link>
-        <Link
-          to={`/about/`}
-          css={css`
-            float: right;
-          `}
-        >
-          About
-        </Link>
-        {children}
-      </div>
-    )}
-  />
+const Layout = ({ children }) => (
+  <>
+    <Navbar>
+      <a href="#home">Home</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#programacao">Programação</a>
+      <a href="#participantes">Participantes</a>
+      <a href="#oficinas">Oficinas</a>
+      <a href="#noticias">Notícias</a>
+      <a href="#videos">Vídeos</a>
+      <a href="#blog">Blog</a>
+      <a href="#contato">Contato</a>
+    </Navbar>
+    <main>{children}</main>
+    <Footer>
+      <a href="#footer">Footer</a>
+    </Footer>
+  </>
 )
+
+export default Layout

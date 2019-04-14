@@ -1,0 +1,15 @@
+.footer {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  grid-column-start: 1;
+  grid-column-end: span 5;
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.7);
+  }
+  a:last-child {
+    border-right: none;
+  }
+}

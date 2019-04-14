@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  grid-template-columns: 20% repeat(3 , 1fr) 20%;
+  grid-auto-rows: auto;
+  width: 100%;
+  align-items: stretch;
+  justify-items: stretch;
+}
+
+
