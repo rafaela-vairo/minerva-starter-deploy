@@ -18,7 +18,7 @@ const contentStyle = {
 
 export default ({ props }) => (
     <Layout>
-        <SEO title='SIQ' keywords={[`SIQ`, `UFRJ`, `quadrinhos`]} />
+        <SEO title='SIQ 2019' keywords={[`SIQ`, `UFRJ`, `Quadrinhos`]} />
         <Popup
             modal
             overlayStyle={{ background: 'rgba(0,0,0,0.96' }}
