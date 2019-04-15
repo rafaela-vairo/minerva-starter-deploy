@@ -56,7 +56,8 @@ function SEO({ description, lang, meta, keywords, title }) {
         )
         .concat(meta)}
       link={[
-        { rel: `shortcut icon`, href: `${favicon}`, type: `image/x-icon` }
+        { rel: `shortcut icon`, href: `${favicon}`, type: `image/x-icon` },
+        { rel: `stylesheet`, href: `https://fonts.googleapis.com/icon?family=Material+Icons`}
       ]}
     />
   )

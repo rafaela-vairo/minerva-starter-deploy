@@ -12,7 +12,8 @@ import Menu from '../components/BurguerMenu'
 
 import Sobre from '../components/sobre'
 import Programacao from '../components/programacao'
-import ProgItem from "../components/progItem"
+
+import TabsDemo from '../components/progTabs'
 
 const contentStyle = {
     background: 'rgba(0,0,0,0.0)',
@@ -54,31 +55,8 @@ export default ({ props }) => (
                 <p>07 a 09 de maio | ECO UFRJ - Campus da Praia Vermelha / Av. Pasteur, 250 - Urca <br></br>
                     10 de maio | UVA - Campus Tijuca / R. Ibituruna, 108 - Maracanã</p>
             </Sobre>
-            <Programacao tituloP="Programação">
-                <ProgItem 
-                    horario='10h — 12h'
-                    local='Auditório 1'
-                    titulo='ABERTURA'
-                    texto='Gustavo Borges - Mediação Raphael Pinheiro'
-                />
-                <ProgItem 
-                    horario='13h — 15h'
-                    local='Auditório 1'
-                    titulo='OFICINA DE CRIAÇÃO DE MUNDOS NA FICÇÃO CIENTÍFICA'
-                    texto='Com Luiz Felipe Vasques e Ana Lúcia Merege'
-                />
-                <ProgItem 
-                    horario='15h — 17h'
-                    local='Auditório 1'
-                    titulo='HQ EM SALA DE AULA, APRESENTANDO O PROJETO MACHADO'
-                    texto='Alunos da ECO - Mediação Natania Nogueira'
-                />
-                <ProgItem 
-                    horario='18h — 20h'
-                    local='Auditório 1'
-                    titulo='AROEIRA: CARTUNE POSICIONAMENTO POLÍTICO'
-                    texto=''
-                />
+            <Programacao>
+                <TabsDemo />
             </Programacao>
         </Grid>
     </Layout>
