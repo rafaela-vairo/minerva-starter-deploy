@@ -43,9 +43,9 @@ export default ({ props }) => (
                 <a href="#programacao">Programação</a>
                 <a href="#participantes">Participantes</a>
                 <a href="#oficinas">Oficinas</a>
-                <a href="#noticias">Notícias</a>
+                {/* <a href="#noticias">Notícias</a> */}
                 <a href="#videos">Vídeos</a>
-                <a href="#blog">Blog</a>
+                {/* <a href="#blog">Blog</a> */}
                 <a href="#contato">Contato</a>
             </Navbar>
             <Sobre>

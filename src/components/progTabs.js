@@ -22,7 +22,6 @@ TabContainer.propTypes = {
 
 const styles = theme => ({
   root: {
-    flexGrow: 1,
     backgroundColor: theme.palette.background.paper,
   },
   tabsRoot: {
@@ -33,11 +32,13 @@ const styles = theme => ({
     height: '100%',
   },
   tabRoot: {
-    zIndex: '999',
+    flexGrow: 1,
+    zIndex: '99',
     textTransform: 'initial',
     minWidth: 72,
+    maxWidth: '100%',
     fontWeight: '700',
-    marginRight: theme.spacing.unit * 4,
+    marginRight: '0px',
     fontFamily: [
       '"Alegreya Sans"',
       'sans-serif',
@@ -80,7 +81,9 @@ class CenteredTabs extends React.Component {
           onChange={this.handleChange}
           indicatorColor="primary"
           textColor="#000"
-          variant="fullWidth"
+          variant="scrollable"
+          scrollButtons="off"
+          centered
           classes={{ root: classes.tabsRoot, indicator: classes.tabsIndicator }}
         >
           <Tab label="07/05 : 3ª feira" disableRipple classes={{ root: classes.tabRoot, selected: classes.tabSelected }} />
