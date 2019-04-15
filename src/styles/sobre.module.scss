@@ -1,0 +1,14 @@
+.sobre {
+    grid-column: 1 / span 5;
+    display: grid;
+    grid-template-columns: 20% repeat(5 , 1fr) 20%;
+    grid-auto-rows: auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.texto {
+    grid-column: 3 / span 3;
+    align-self: center;
+}
+

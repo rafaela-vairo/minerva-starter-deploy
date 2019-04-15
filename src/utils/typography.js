@@ -4,12 +4,12 @@ import MOBILE_MEDIA_QUERY from "typography-breakpoint-constants"
 
 const typography = new Typography({
   title: 'Minerva',
-  baseFontSize: '15px',
-  baseLineHeight: 1.6,
-  scaleRatio: 1.16,
+  baseFontSize: '18px',
+  baseLineHeight: 1.75,
+  scaleRatio: 2.8,
   googleFonts: [
     {
-      name: 'Playfair Display',
+      name: 'Alegreya Sans',
       styles: ['700'],
     },
     {
@@ -17,7 +17,7 @@ const typography = new Typography({
       styles: ['400', '400i', '700', '700i'],
     },
   ],
-  headerFontFamily: ['Playfair Display', 'serif'],
+  headerFontFamily: ['Alegreya Sans', 'sans-serif'],
   bodyFontFamily: ['Alegreya Sans', 'sans-serif'],
   headerColor: 'hsla(0,0%,0%,95)',
   bodyColor: 'hsla(0,0%,0%,0.95)',

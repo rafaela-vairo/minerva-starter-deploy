@@ -10,6 +10,10 @@ import Popup from 'reactjs-popup';
 import BurgerIcon from '../components/BurguerIcon'
 import Menu from '../components/BurguerMenu'
 
+import Sobre from '../components/sobre'
+import Programacao from '../components/programacao'
+import ProgItem from "../components/progItem"
+
 const contentStyle = {
     background: 'rgba(0,0,0,0.0)',
     width: '80%',
@@ -43,42 +47,39 @@ export default ({ props }) => (
                 <a href="#blog">Blog</a>
                 <a href="#contato">Contato</a>
             </Navbar>
-            <div style={{
-                gridColumn: '2 / span 4',
-                padding:'20% 10% 10% 5%',
-                paddingBottom:'20%',
-            }}
-            id='sobre'
-            >
-                <h1>Hello World</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae augue mauris. Sed at nisl neque. Mauris et diam massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque tempor volutpat erat a tincidunt. Donec blandit ligula vitae lorem porta vulputate. Mauris eu dui sit amet quam elementum accumsan. Ut dui dolor, porttitor in massa non, interdum hendrerit sem. Pellentesque lobortis eget eros non viverra. Mauris posuere eu risus quis maximus. Mauris mollis iaculis sapien vel cursus. Donec non semper nulla. Ut nec libero tincidunt, dictum ligula sit amet, tincidunt urna. Nullam eleifend diam eget pharetra fringilla. In congue efficitur magna sit amet ultricies. <br></br>
-                Vestibulum sit amet tincidunt urna, consectetur elementum nulla. Nam velit enim, aliquam eget mi quis, dictum pellentesque ligula. Aliquam erat volutpat. Sed consectetur quam nec nunc aliquam laoreet. Donec a tristique nunc. Praesent rhoncus nisl nec rutrum porta. Curabitur quis vestibulum justo. Nullam sed erat sem. Donec sagittis eros ac nulla accumsan, id pellentesque justo dapibus. Vivamus ornare mauris consequat justo pretium varius. Vestibulum ut vehicula nunc. Vivamus velit metus, dapibus vel varius ut, pharetra at turpis. Nunc volutpat nisi sit amet consequat bibendum. <br></br>
-                Pellentesque efficitur est eget nibh luctus, elementum scelerisque dui ornare. Vestibulum vehicula lacus id elementum euismod. Aliquam tincidunt ipsum ut dolor commodo, vitae tempus ante facilisis. Donec blandit, arcu id volutpat viverra, neque lectus rhoncus ipsum, eu laoreet ipsum augue aliquet quam. In consequat quam vel lectus tincidunt blandit. Duis lectus sapien, lacinia in vehicula quis, condimentum vel augue. Integer risus nisl, posuere in turpis ut, malesuada cursus quam. Aenean id diam tellus. Nullam ac magna sit amet elit varius ornare ut ac magna. Pellentesque ipsum sem, volutpat et porttitor vitae, vehicula maximus tellus. Vivamus rutrum metus vitae mauris ultrices, molestie dictum justo cursus. Sed a neque cursus turpis suscipit suscipit. Donec accumsan lacus vel ipsum porttitor rutrum. Sed eleifend in ipsum sed condimentum. Fusce commodo quis libero sed efficitur. Pellentesque consequat, orci non porta vehicula, enim quam malesuada risus, non tincidunt</p>
-            </div>
-            <div style={{
-                gridColumn: '2 / span 4',
-                padding:'20% 10% 10% 5%',
-                paddingBottom:'20%',
-            }}
-            id='programacao'
-            >
-                <h1>Hello World</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae augue mauris. Sed at nisl neque. Mauris et diam massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque tempor volutpat erat a tincidunt. Donec blandit ligula vitae lorem porta vulputate. Mauris eu dui sit amet quam elementum accumsan. Ut dui dolor, porttitor in massa non, interdum hendrerit sem. Pellentesque lobortis eget eros non viverra. Mauris posuere eu risus quis maximus. Mauris mollis iaculis sapien vel cursus. Donec non semper nulla. Ut nec libero tincidunt, dictum ligula sit amet, tincidunt urna. Nullam eleifend diam eget pharetra fringilla. In congue efficitur magna sit amet ultricies. <br></br>
-                Vestibulum sit amet tincidunt urna, consectetur elementum nulla. Nam velit enim, aliquam eget mi quis, dictum pellentesque ligula. Aliquam erat volutpat. Sed consectetur quam nec nunc aliquam laoreet. Donec a tristique nunc. Praesent rhoncus nisl nec rutrum porta. Curabitur quis vestibulum justo. Nullam sed erat sem. Donec sagittis eros ac nulla accumsan, id pellentesque justo dapibus. Vivamus ornare mauris consequat justo pretium varius. Vestibulum ut vehicula nunc. Vivamus velit metus, dapibus vel varius ut, pharetra at turpis. Nunc volutpat nisi sit amet consequat bibendum. <br></br>
-                Pellentesque efficitur est eget nibh luctus, elementum scelerisque dui ornare. Vestibulum vehicula lacus id elementum euismod. Aliquam tincidunt ipsum ut dolor commodo, vitae tempus ante facilisis. Donec blandit, arcu id volutpat viverra, neque lectus rhoncus ipsum, eu laoreet ipsum augue aliquet quam. In consequat quam vel lectus tincidunt blandit. Duis lectus sapien, lacinia in vehicula quis, condimentum vel augue. Integer risus nisl, posuere in turpis ut, malesuada cursus quam. Aenean id diam tellus. Nullam ac magna sit amet elit varius ornare ut ac magna. Pellentesque ipsum sem, volutpat et porttitor vitae, vehicula maximus tellus. Vivamus rutrum metus vitae mauris ultrices, molestie dictum justo cursus. Sed a neque cursus turpis suscipit suscipit. Donec accumsan lacus vel ipsum porttitor rutrum. Sed eleifend in ipsum sed condimentum. Fusce commodo quis libero sed efficitur. Pellentesque consequat, orci non porta vehicula, enim quam malesuada risus, non tincidunt</p>
-            </div>
-            <div style={{
-                gridColumn: '2 / span 4',
-                padding:'20% 10% 10% 5%',
-                paddingBottom:'20%',
-            }}
-            id='participantes'
-            >
-                <h1>Hello World</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae augue mauris. Sed at nisl neque. Mauris et diam massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque tempor volutpat erat a tincidunt. Donec blandit ligula vitae lorem porta vulputate. Mauris eu dui sit amet quam elementum accumsan. Ut dui dolor, porttitor in massa non, interdum hendrerit sem. Pellentesque lobortis eget eros non viverra. Mauris posuere eu risus quis maximus. Mauris mollis iaculis sapien vel cursus. Donec non semper nulla. Ut nec libero tincidunt, dictum ligula sit amet, tincidunt urna. Nullam eleifend diam eget pharetra fringilla. In congue efficitur magna sit amet ultricies. <br></br>
-                Vestibulum sit amet tincidunt urna, consectetur elementum nulla. Nam velit enim, aliquam eget mi quis, dictum pellentesque ligula. Aliquam erat volutpat. Sed consectetur quam nec nunc aliquam laoreet. Donec a tristique nunc. Praesent rhoncus nisl nec rutrum porta. Curabitur quis vestibulum justo. Nullam sed erat sem. Donec sagittis eros ac nulla accumsan, id pellentesque justo dapibus. Vivamus ornare mauris consequat justo pretium varius. Vestibulum ut vehicula nunc. Vivamus velit metus, dapibus vel varius ut, pharetra at turpis. Nunc volutpat nisi sit amet consequat bibendum. <br></br>
-                Pellentesque efficitur est eget nibh luctus, elementum scelerisque dui ornare. Vestibulum vehicula lacus id elementum euismod. Aliquam tincidunt ipsum ut dolor commodo, vitae tempus ante facilisis. Donec blandit, arcu id volutpat viverra, neque lectus rhoncus ipsum, eu laoreet ipsum augue aliquet quam. In consequat quam vel lectus tincidunt blandit. Duis lectus sapien, lacinia in vehicula quis, condimentum vel augue. Integer risus nisl, posuere in turpis ut, malesuada cursus quam. Aenean id diam tellus. Nullam ac magna sit amet elit varius ornare ut ac magna. Pellentesque ipsum sem, volutpat et porttitor vitae, vehicula maximus tellus. Vivamus rutrum metus vitae mauris ultrices, molestie dictum justo cursus. Sed a neque cursus turpis suscipit suscipit. Donec accumsan lacus vel ipsum porttitor rutrum. Sed eleifend in ipsum sed condimentum. Fusce commodo quis libero sed efficitur. Pellentesque consequat, orci non porta vehicula, enim quam malesuada risus, non tincidunt ante</p>
-            </div>
+            <Sobre>
+                <h2>Semana Internacional de Quadrinhos <strong style={{color: '#fff'}}>2019</strong></h2>
+                <p style={{fontSize: '1.2rem'}}>Nascida como um evento internacional de Quadrinhos em 2016, a SIQ é hoje um verdadeiro encontro interdisciplinar de cultura pop aproximando mercado e academia ao promover no ambiente universitário palestras, oficinas, mesas redondas, exposições sobre quadrinhos, animação, cinema e literatura.</p>
+                <h3 style={{color: '#fff'}}>07 a 10 de maio <span style={{display: 'inline-flex',width: '5rem', borderBottom: '3px solid #fff', margin: '5px'}}></span></h3>
+                <p>07 a 09 de maio | ECO UFRJ - Campus da Praia Vermelha / Av. Pasteur, 250 - Urca <br></br>
+                    10 de maio | UVA - Campus Tijuca / R. Ibituruna, 108 - Maracanã</p>
+            </Sobre>
+            <Programacao tituloP="Programação">
+                <ProgItem 
+                    horario='10h — 12h'
+                    local='Auditório 1'
+                    titulo='ABERTURA'
+                    texto='Gustavo Borges - Mediação Raphael Pinheiro'
+                />
+                <ProgItem 
+                    horario='13h — 15h'
+                    local='Auditório 1'
+                    titulo='OFICINA DE CRIAÇÃO DE MUNDOS NA FICÇÃO CIENTÍFICA'
+                    texto='Com Luiz Felipe Vasques e Ana Lúcia Merege'
+                />
+                <ProgItem 
+                    horario='15h — 17h'
+                    local='Auditório 1'
+                    titulo='HQ EM SALA DE AULA, APRESENTANDO O PROJETO MACHADO'
+                    texto='Alunos da ECO - Mediação Natania Nogueira'
+                />
+                <ProgItem 
+                    horario='18h — 20h'
+                    local='Auditório 1'
+                    titulo='AROEIRA: CARTUNE POSICIONAMENTO POLÍTICO'
+                    texto=''
+                />
+            </Programacao>
         </Grid>
     </Layout>
 )
