@@ -1,6 +1,10 @@
 .nav {
-  z-index: 1;
-  background: rgb(255, 123, 0);
+  @media (min-width: 850px) and (min-height: 850px) {
+    visibility: visible;
+  }
+  visibility: hidden;
+  z-index: 9990;
+  background: rgb(255, 255, 255);
   padding: 1.5rem;
   text-align: end;
   position: -webkit-sticky;

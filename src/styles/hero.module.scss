@@ -7,13 +7,13 @@
   background-origin: border-box;
   background-repeat: no-repeat;
   @media (min-width: 721px) {
-    height: 100vh;
+    height: calc(100vh - 69px);
   }
   > img {
     display: flex;
     margin: auto;
     @media (min-width: 721px) and (min-height: 721px) {
-      margin-top: 20vh;
+      margin-top: 25vh;
       width: 50%;
       max-width: 350px;
     }
