@@ -38,15 +38,17 @@ export default ({ props }) => (
                 <img src={logo} alt='Logo SIQ' />
             </Hero>
             <Navbar>
-                <a href="#home">Home</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#programacao">Programação</a>
-                <a href="#participantes">Participantes</a>
-                <a href="#oficinas">Oficinas</a>
-                {/* <a href="#noticias">Notícias</a> */}
-                <a href="#videos">Vídeos</a>
-                {/* <a href="#blog">Blog</a> */}
-                <a href="#contato">Contato</a>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#programacao">Programação</a></li>
+                    <li><a href="#participantes">Participantes</a></li>
+                    <li><a href="#oficinas">Oficinas</a></li>
+                    {/* <li><a href="#noticias">Notícias</a></li> */}
+                    <li><a href="#videos">Vídeos</a></li>
+                    {/* <li><a href="#blog">Blog</a></li> */}
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
             </Navbar>
             <Sobre>
                 <h2>Semana Internacional de Quadrinhos <strong style={{color: '#fff'}}>2019</strong></h2>

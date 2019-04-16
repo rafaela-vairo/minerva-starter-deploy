@@ -2,6 +2,8 @@
   grid-column: 1 / span 5;
   grid-row-start: 1;
   height: 70vh;
+  display: flex;
+  justify-content: center;
   background-image: url(../images/backgroundSIQb.jpg);
   background-size: cover;
   background-origin: border-box;
@@ -10,14 +12,15 @@
     height: calc(100vh - 85px);
   }
   > img {
-    display: flex;
     margin: auto;
     @media (min-width: 721px) and (min-height: 721px) {
       margin-top: 25vh;
       width: 50%;
+      height: 50%;
       max-width: 350px;
     }
-    margin-top: 20vw;
+
     width: 70vw;
+    height: 50%;
   }
 }

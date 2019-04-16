@@ -8,7 +8,7 @@ import Table from './table'
 import Local from './local'
 import ProgItem from "./progItem"
 
-const primary = 'orange';
+const primary = '#FBB03B';
 
 function TabContainer(props) {
   return (

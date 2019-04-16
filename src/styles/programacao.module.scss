@@ -14,15 +14,12 @@
         margin-bottom: 5%;
         margin-top: 5%;
     }
-    margin-bottom: 15%;
-    margin-top: 15%;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
     span {
         display: flex;
-        @media (min-width: 721px) {
-            width: 10%;
-        }
         width: 220px;
-        border-bottom: 3px solid orange;
+        border-bottom: 3px solid #FBB03B;
         margin-top: 15px;
     }
 }

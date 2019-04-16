@@ -1,3 +1,8 @@
+$primary: #FBB03B;
+$items: 7;
+$itemWidth: 96px;
+$indicatorHeight: 2px;
+
 .nav {
   @media (min-width: 850px) and (min-height: 850px) {
     visibility: visible;
@@ -7,17 +12,51 @@
   background: rgb(255, 255, 255);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   padding: 1.5rem;
-  text-align: end;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: block;
+    margin-bottom: 0;
+    list-style: none;
+    &.current a{
+      color: $primary;
+    }
+  }
   a {
+    position: relative;
+    display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
     padding: 0px 1rem;
-    border-right: 1px solid rgba(0, 0, 0, 0.7);
   }
-  a:last-child {
-    border-right: none;
+
+  a::after {
+    content: "";
+    background: $primary;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    transition: 0.16s all 0.025s;
+    left: 100%;
+    right: 0;
+  }
+
+  a:hover::after {
+    left: 0;
+    right: 0;
+  }
+
+  a:hover ~ a::after {
+    left: 0;
+    right: 100%;
   }
 }

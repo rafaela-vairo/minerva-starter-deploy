@@ -1,22 +1,27 @@
 .sobre {
     grid-column: 1 / span 5;
     display: grid;
-    @media (min-width: 721px) {
+    @media (min-width: 1170px) {
         grid-template-columns: 20% repeat(5 , 1fr) 20%;
         margin-top: 0;
         margin-bottom: 0;
+        min-height: 100vh;
     }
-    margin-top: -20%;
-    margin-bottom: 10%;
+    @media (min-width: 850px) {
+        margin-top: 0px;
+        margin-bottom: 2%;
+    }
+    margin-top: -85px;
+    margin-bottom: 8%;
     grid-template-columns: 10% repeat(5 , 1fr) 10%;
     grid-auto-rows: auto;
     width: 100%;
-    min-height: 100vh;
+    min-height: 60vh;
     height: auto;
 }
 
 .texto {
-    @media (min-width: 721px) {
+    @media (min-width: 1170px) {
         grid-column: 3 / span 3;
     }
     grid-column: 2 / span 5;
