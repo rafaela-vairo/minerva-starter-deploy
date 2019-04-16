@@ -37,42 +37,42 @@ export default class SimpleSlider extends Component {
     return (
         <Slider {...settings}>
           <div className={participantesStyles.slidecard}>
-              <img src="http://placekitten.com/g/400/200" />
+              <img src="http://placekitten.com/g/400/200" alt="alt text"/>
               <div>
                 <h2 className={participantesStyles.subtitulo}>Fulano de Tal <span></span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ante arcu, ullamcorper quis viverra non, tincidunt et justo. Pellentesque sodales elementum sem sed convallis. Sed tristique non metus sed congue. In semper, enim sit amet molestie euismod, nunc diam sagittis augue, quis vestibulum felis neque eu metus.</p>
               </div>
           </div>
           <div className={participantesStyles.slidecard}>
-              <img src="http://placekitten.com/g/400/200" />
+              <img src="http://placekitten.com/g/400/200" alt="alt text"/>
               <div>
                 <h2 className={participantesStyles.subtitulo}>Fulano de Tal <span></span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ante arcu, ullamcorper quis viverra non, tincidunt et justo. Pellentesque sodales elementum sem sed convallis. Sed tristique non metus sed congue. In semper, enim sit amet molestie euismod, nunc diam sagittis augue, quis vestibulum felis neque eu metus.</p>
               </div>
           </div>
           <div className={participantesStyles.slidecard}>
-              <img src="http://placekitten.com/g/400/200" />
+              <img src="http://placekitten.com/g/400/200" alt="alt text"/>
               <div>
                 <h2 className={participantesStyles.subtitulo}>Fulano de Tal <span></span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ante arcu, ullamcorper quis viverra non, tincidunt et justo. Pellentesque sodales elementum sem sed convallis. Sed tristique non metus sed congue. In semper, enim sit amet molestie euismod, nunc diam sagittis augue, quis vestibulum felis neque eu metus.</p>
               </div>
           </div>
           <div className={participantesStyles.slidecard}>
-              <img src="http://placekitten.com/g/400/200" />
+              <img src="http://placekitten.com/g/400/200" alt="alt text"/>
               <div>
                 <h2 className={participantesStyles.subtitulo}>Fulano de Tal <span></span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ante arcu, ullamcorper quis viverra non, tincidunt et justo. Pellentesque sodales elementum sem sed convallis. Sed tristique non metus sed congue. In semper, enim sit amet molestie euismod, nunc diam sagittis augue, quis vestibulum felis neque eu metus.</p>
               </div>
           </div>
           <div className={participantesStyles.slidecard}>
-              <img src="http://placekitten.com/g/400/200" />
+              <img src="http://placekitten.com/g/400/200" alt="alt text"/>
               <div>
                 <h2 className={participantesStyles.subtitulo}>Fulano de Tal <span></span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ante arcu, ullamcorper quis viverra non, tincidunt et justo. Pellentesque sodales elementum sem sed convallis. Sed tristique non metus sed congue. In semper, enim sit amet molestie euismod, nunc diam sagittis augue, quis vestibulum felis neque eu metus.</p>
               </div>
           </div>
           <div className={participantesStyles.slidecard}>
-              <img src="http://placekitten.com/g/400/200" />
+              <img src="http://placekitten.com/g/400/200" alt="alt text"/>
               <div>
                 <h2 className={participantesStyles.subtitulo}>Fulano de Tal <span></span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ante arcu, ullamcorper quis viverra non, tincidunt et justo. Pellentesque sodales elementum sem sed convallis. Sed tristique non metus sed congue. In semper, enim sit amet molestie euismod, nunc diam sagittis augue, quis vestibulum felis neque eu metus.</p>
