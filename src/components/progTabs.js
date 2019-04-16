@@ -80,10 +80,9 @@ class CenteredTabs extends React.Component {
           value={this.state.value}
           onChange={this.handleChange}
           indicatorColor="primary"
-          textColor="#000"
+          textColor="inherit"
           variant="scrollable"
           scrollButtons="off"
-          centered
           classes={{ root: classes.tabsRoot, indicator: classes.tabsIndicator }}
         >
           <Tab label="07/05 : 3ª feira" disableRipple classes={{ root: classes.tabRoot, selected: classes.tabSelected }} />
@@ -119,7 +118,7 @@ class CenteredTabs extends React.Component {
                     />
                 </Table>
                 <Local local='ECO UFRJ' rua=' - Campus da Praia Vermelha / Av. Pasteur, 250 - Urca' />
-                <iframe title="Local 2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1336.9938228395688!2d-43.174743252809705!3d-22.95262258344815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997ff614120d07%3A0x15177b8270b12e06!2sSchool+of+Communication+at+UFRJ!5e0!3m2!1sen!2sbr!4v1555387250501!5m2!1sen!2sbr" width="800" height="600" frameborder="0" style={{border:0, width: '100%',}} allowfullscreen></iframe>
+                <iframe title="Local 2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1336.9938228395688!2d-43.174743252809705!3d-22.95262258344815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997ff614120d07%3A0x15177b8270b12e06!2sSchool+of+Communication+at+UFRJ!5e0!3m2!1sen!2sbr!4v1555387250501!5m2!1sen!2sbr" width="800" height="600" frameBorder="0" style={{border:0, width: '100%',}} allowFullScreen></iframe>
         </TabContainer>}
         {value === 1 && <TabContainer>
                 <Table>
