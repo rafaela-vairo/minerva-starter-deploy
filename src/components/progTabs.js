@@ -119,93 +119,97 @@ class CenteredTabs extends React.Component {
                     />
                 </Table>
                 <Local local='ECO UFRJ' rua=' - Campus da Praia Vermelha / Av. Pasteur, 250 - Urca' />
+                <iframe title="Local 2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1336.9938228395688!2d-43.174743252809705!3d-22.95262258344815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997ff614120d07%3A0x15177b8270b12e06!2sSchool+of+Communication+at+UFRJ!5e0!3m2!1sen!2sbr!4v1555387250501!5m2!1sen!2sbr" width="800" height="600" frameborder="0" style={{border:0, width: '100%',}} allowfullscreen></iframe>
         </TabContainer>}
         {value === 1 && <TabContainer>
                 <Table>
                     <ProgItem 
-                        horario='11h — 12h'
-                        local='Auditório 1'
-                        titulo='LOREM IPSUM DOLOR SIT AMET'
+                        horario='10h — 12h'
+                        local='Local 1'
+                        titulo='LOREM IPSUM'
                         texto='Sed a commodo neque. Fusce imperdiet maximus.'
                     />
                     <ProgItem 
-                        horario='13h — 16h'
-                        local='Auditório 2'
+                        horario='13h — 15h'
+                        local='Local 2'
                         titulo='PELLENTESQUE EGET ODIO EU ELIT PHARETTA'
                         texto='Donec eget ipsum nec urna elementum pretium'
                     />
                     <ProgItem 
-                        horario='16h — 18h'
-                        local='Auditório 1'
+                        horario='15h — 17h'
+                        local='Local 1'
                         titulo='CURABITUR FRINGILLA METUS UT IPSUM MOLLIS'
                         texto='Duis in tempus orci Curabitur mauris pharetra luctus'
                     />
                     <ProgItem 
-                        horario='18h — 19h'
-                        local='Auditório 2'
+                        horario='18h — 20h'
+                        local='Local 2'
                         titulo='CRAS HENDRERIT TORTOR VITAE ULLAMCORPER'
                         texto='Duis lorem est, mattis dignissim lacus vel'
                     />
                 </Table>
                 <Local local='ECO UFRJ' rua=' - Campus da Praia Vermelha / Av. Pasteur, 250 - Urca' />
+                <iframe title="Local 2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1336.9938228395688!2d-43.174743252809705!3d-22.95262258344815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997ff614120d07%3A0x15177b8270b12e06!2sSchool+of+Communication+at+UFRJ!5e0!3m2!1sen!2sbr!4v1555387250501!5m2!1sen!2sbr" width="800" height="600" frameborder="0" style={{border:0, width: '100%',}} allowfullscreen></iframe>
         </TabContainer>}
         {value === 2 && <TabContainer>
                 <Table>
                     <ProgItem 
                         horario='10h — 12h'
-                        local='Auditório 1'
-                        titulo='ABERTURA'
-                        texto='Gustavo Borges - Mediação Raphael Pinheiro'
+                        local='Local 1'
+                        titulo='LOREM IPSUM'
+                        texto='Sed a commodo neque. Fusce imperdiet maximus.'
                     />
                     <ProgItem 
                         horario='13h — 15h'
-                        local='Auditório 1'
-                        titulo='OFICINA DE CRIAÇÃO DE MUNDOS NA FICÇÃO CIENTÍFICA'
-                        texto='Com Luiz Felipe Vasques e Ana Lúcia Merege'
+                        local='Local 2'
+                        titulo='PELLENTESQUE EGET ODIO EU ELIT PHARETTA'
+                        texto='Donec eget ipsum nec urna elementum pretium'
                     />
                     <ProgItem 
                         horario='15h — 17h'
-                        local='Auditório 1'
-                        titulo='HQ EM SALA DE AULA, APRESENTANDO O PROJETO MACHADO'
-                        texto='Alunos da ECO - Mediação Natania Nogueira'
+                        local='Local 1'
+                        titulo='CURABITUR FRINGILLA METUS UT IPSUM MOLLIS'
+                        texto='Duis in tempus orci Curabitur mauris pharetra luctus'
                     />
                     <ProgItem 
                         horario='18h — 20h'
-                        local='Auditório 1'
-                        titulo='AROEIRA: CARTUN E POSICIONAMENTO POLÍTICO'
-                        texto=''
+                        local='Local 2'
+                        titulo='CRAS HENDRERIT TORTOR VITAE ULLAMCORPER'
+                        texto='Duis lorem est, mattis dignissim lacus vel'
                     />
                 </Table>
                 <Local local='ECO UFRJ' rua=' - Campus da Praia Vermelha / Av. Pasteur, 250 - Urca' />
+                <iframe title="Local 2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1336.9938228395688!2d-43.174743252809705!3d-22.95262258344815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997ff614120d07%3A0x15177b8270b12e06!2sSchool+of+Communication+at+UFRJ!5e0!3m2!1sen!2sbr!4v1555387250501!5m2!1sen!2sbr" width="800" height="600" frameborder="0" style={{border:0, width: '100%',}} allowfullscreen></iframe>
         </TabContainer>}
         {value === 3 && <TabContainer>
                 <Table>
                     <ProgItem 
                         horario='10h — 12h'
-                        local='Auditório 1'
-                        titulo='ABERTURA'
-                        texto='Gustavo Borges - Mediação Raphael Pinheiro'
+                        local='Local 1'
+                        titulo='LOREM IPSUM'
+                        texto='Sed a commodo neque. Fusce imperdiet maximus.'
                     />
                     <ProgItem 
                         horario='13h — 15h'
-                        local='Auditório 1'
-                        titulo='OFICINA DE CRIAÇÃO DE MUNDOS NA FICÇÃO CIENTÍFICA'
-                        texto='Com Luiz Felipe Vasques e Ana Lúcia Merege'
+                        local='Local 2'
+                        titulo='PELLENTESQUE EGET ODIO EU ELIT PHARETTA'
+                        texto='Donec eget ipsum nec urna elementum pretium'
                     />
                     <ProgItem 
                         horario='15h — 17h'
-                        local='Auditório 1'
-                        titulo='HQ EM SALA DE AULA, APRESENTANDO O PROJETO MACHADO'
-                        texto='Alunos da ECO - Mediação Natania Nogueira'
+                        local='Local 1'
+                        titulo='CURABITUR FRINGILLA METUS UT IPSUM MOLLIS'
+                        texto='Duis in tempus orci Curabitur mauris pharetra luctus'
                     />
                     <ProgItem 
                         horario='18h — 20h'
-                        local='Auditório 1'
-                        titulo='AROEIRA: CARTUN E POSICIONAMENTO POLÍTICO'
-                        texto=''
+                        local='Local 2'
+                        titulo='CRAS HENDRERIT TORTOR VITAE ULLAMCORPER'
+                        texto='Duis lorem est, mattis dignissim lacus vel'
                     />
                 </Table>
-                <Local local='ECO UFRJ' rua=' - Campus da Praia Vermelha / Av. Pasteur, 250 - Urca' />
+                <Local local='UVA' rua=' - Campus Tijuca / R. Ibituruna, 108 - Maracanã' />
+                <iframe title="Local 2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2003.830870949564!2d-43.22251974240896!3d-22.91182367563941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e57963eedf3%3A0xaf52199fd71ffebb!2sVeiga+de+Almeida+University+-+UVA!5e0!3m2!1sen!2sbr!4v1555387824375!5m2!1sen!2sbr" width="800" height="600" frameborder="0" style={{border:0, width: '100%',}} allowfullscreen></iframe>
         </TabContainer>}
       </div>
     );

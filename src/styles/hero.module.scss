@@ -1,7 +1,8 @@
 .hero {
   grid-column: 1 / span 5;
   grid-row-start: 1;
-  height: 70vh;
+  height: auto;
+  padding: 2rem;
   display: flex;
   justify-content: center;
   background-image: url(../images/backgroundSIQb.jpg);

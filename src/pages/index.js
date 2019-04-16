@@ -13,7 +13,7 @@ import Menu from '../components/BurguerMenu'
 import Sobre from '../components/sobre'
 import Programacao from '../components/programacao'
 
-import TabsDemo from '../components/progTabs'
+import ProgTabs from '../components/progTabs'
 
 const contentStyle = {
     background: 'rgba(0,0,0,0.0)',
@@ -58,7 +58,7 @@ export default ({ props }) => (
                     10 de maio | UVA - Campus Tijuca / R. Ibituruna, 108 - Maracanã</p>
             </Sobre>
             <Programacao>
-                <TabsDemo />
+                <ProgTabs />
             </Programacao>
         </Grid>
     </Layout>
