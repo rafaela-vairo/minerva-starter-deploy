@@ -95,25 +95,25 @@ class CenteredTabs extends React.Component {
                     <ProgItem 
                         horario='10h — 12h'
                         local='Auditório 1'
-                        titulo='ABERTURA'
+                        titulo='Abertura'
                         texto='Gustavo Borges - Mediação Raphael Pinheiro'
                     />
                     <ProgItem 
                         horario='13h — 15h'
                         local='Auditório 1'
-                        titulo='OFICINA DE CRIAÇÃO DE MUNDOS NA FICÇÃO CIENTÍFICA'
-                        texto='Com Luiz Felipe Vasques e Ana Lúcia Merege'
+                        titulo='Oficina de criação de mundos na Ficção Científica'
+                        texto='Luiz Felipe Vasques e Ana Lúcia Merege'
                     />
                     <ProgItem 
                         horario='15h — 17h'
                         local='Auditório 1'
-                        titulo='HQ EM SALA DE AULA, APRESENTANDO O PROJETO MACHADO'
+                        titulo='HQs em sala de aula, apresentando o projeto Machado'
                         texto='Alunos da ECO - Mediação Natania Nogueira'
                     />
                     <ProgItem 
                         horario='18h — 20h'
                         local='Auditório 1'
-                        titulo='AROEIRA: CARTUN E POSICIONAMENTO POLÍTICO'
+                        titulo='Aroeira: Cartum e posicionamento político'
                         texto=''
                     />
                 </Table>
@@ -125,26 +125,26 @@ class CenteredTabs extends React.Component {
                     <ProgItem 
                         horario='10h — 12h'
                         local='Local 1'
-                        titulo='LOREM IPSUM'
-                        texto='Sed a commodo neque. Fusce imperdiet maximus.'
+                        titulo='Humor gráfico na Argentina'
+                        texto='Mara Burkart - Mediação Octavio Aragão'
                     />
                     <ProgItem 
                         horario='13h — 15h'
                         local='Local 2'
-                        titulo='PELLENTESQUE EGET ODIO EU ELIT PHARETTA'
-                        texto='Donec eget ipsum nec urna elementum pretium'
+                        titulo='Oficina de Fundamentos da Aquarela'
+                        texto='Letícia Pusti'
                     />
                     <ProgItem 
                         horario='15h — 17h'
                         local='Local 1'
-                        titulo='CURABITUR FRINGILLA METUS UT IPSUM MOLLIS'
-                        texto='Duis in tempus orci Curabitur mauris pharetra luctus'
+                        titulo='Jornalismo em quadrinhos'
+                        texto='Cida Calú, Ary Moraes, Aristides Correa Dutra - Mediação Nobu Chinen'
                     />
                     <ProgItem 
                         horario='18h — 20h'
                         local='Local 2'
-                        titulo='CRAS HENDRERIT TORTOR VITAE ULLAMCORPER'
-                        texto='Duis lorem est, mattis dignissim lacus vel'
+                        titulo='Construção do Cartunista'
+                        texto='Jaguar e Miguel Paiva - Mediação Cristina Rego Monteiro'
                     />
                 </Table>
                 <Local local='ECO UFRJ' rua=' - Campus da Praia Vermelha / Av. Pasteur, 250 - Urca' />
@@ -155,20 +155,20 @@ class CenteredTabs extends React.Component {
                     <ProgItem 
                         horario='10h — 12h'
                         local='Local 1'
-                        titulo='LOREM IPSUM'
-                        texto='Sed a commodo neque. Fusce imperdiet maximus.'
+                        titulo='Quadrinhos e novas mídias na América Latina'
+                        texto='Sebastian Gago - Mediação Amaury Fernandes'
                     />
                     <ProgItem 
                         horario='13h — 15h'
                         local='Local 2'
-                        titulo='PELLENTESQUE EGET ODIO EU ELIT PHARETTA'
-                        texto='Donec eget ipsum nec urna elementum pretium'
+                        titulo='O Papel do Editor de Quadrinhos'
+                        texto='Guilherme Tolomei (Ed. Caligari) e Julio Monteiro de Oliveira (Ed. Mythos) - Mediação Mario Feijó'
                     />
                     <ProgItem 
                         horario='15h — 17h'
                         local='Local 1'
-                        titulo='CURABITUR FRINGILLA METUS UT IPSUM MOLLIS'
-                        texto='Duis in tempus orci Curabitur mauris pharetra luctus'
+                        titulo='Entrega do Prêmio LeBlanc e Homenagens a Carlos Patati e João Carpalhau'
+                        texto=''
                     />
                     <ProgItem 
                         horario='18h — 20h'
@@ -185,26 +185,26 @@ class CenteredTabs extends React.Component {
                     <ProgItem 
                         horario='10h — 12h'
                         local='Local 1'
-                        titulo='LOREM IPSUM'
-                        texto='Sed a commodo neque. Fusce imperdiet maximus.'
+                        titulo='Combo Studio'
+                        texto=''
                     />
                     <ProgItem 
                         horario='13h — 15h'
                         local='Local 2'
-                        titulo='PELLENTESQUE EGET ODIO EU ELIT PHARETTA'
-                        texto='Donec eget ipsum nec urna elementum pretium'
+                        titulo='Oficina de Princípios da Animação'
+                        texto='Pedro Barreto'
                     />
                     <ProgItem 
                         horario='15h — 17h'
                         local='Local 1'
-                        titulo='CURABITUR FRINGILLA METUS UT IPSUM MOLLIS'
-                        texto='Duis in tempus orci Curabitur mauris pharetra luctus'
+                        titulo='Produção de Animação'
+                        texto='Alunos da UVA'
                     />
                     <ProgItem 
                         horario='18h — 20h'
                         local='Local 2'
-                        titulo='CRAS HENDRERIT TORTOR VITAE ULLAMCORPER'
-                        texto='Duis lorem est, mattis dignissim lacus vel'
+                        titulo='Animando com Aída Queiroz'
+                        texto='Aída Queiroz e Patrícia Alves - Mediação Gisele Carvalho'
                     />
                 </Table>
                 <Local local='UVA' rua=' - Campus Tijuca / R. Ibituruna, 108 - Maracanã' />

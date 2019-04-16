@@ -8,8 +8,8 @@ const progItem = props => (
             <span style={{fontWeight: 500,}}>{props.local}</span>
         </th>
         <td className={progItemStyles.cell}>
-            {props.titulo} <br></br>
-            <strong>{props.texto}</strong>
+        <strong>{props.titulo}</strong> <br></br>
+            {props.texto}
         </td>
     </tr>
 )
