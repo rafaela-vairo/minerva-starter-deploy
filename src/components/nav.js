@@ -6,6 +6,7 @@ export default ({ children }) => (
     gridColumn: '1 / span 5',
     position: 'sticky',
     top: '0',
+    zIndex: '999',
     }}>
     <header className={navStyles.nav}>{children}</header>
   </div>

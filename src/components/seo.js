@@ -57,7 +57,9 @@ function SEO({ description, lang, meta, keywords, title }) {
         .concat(meta)}
       link={[
         { rel: `shortcut icon`, href: `${favicon}`, type: `image/x-icon` },
-        { rel: `stylesheet`, href: `https://fonts.googleapis.com/icon?family=Material+Icons`}
+        { rel: `stylesheet`, href: `https://fonts.googleapis.com/icon?family=Material+Icons` },
+        { rel: `stylesheet`, type: `text/css`, charset: `UTF-8`, href: `https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css` },
+        { rel: `stylesheet`, type: `text/css`, href: `https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css` },
       ]}
     />
   )

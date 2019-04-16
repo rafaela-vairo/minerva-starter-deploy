@@ -1,19 +1,23 @@
 import React from 'react'
-import Layout from '../components/layout'
-import Grid from '../components/grid'
-import Hero from '../components/hero'
-import logo from '../images/logoSIQ.svg'
 import SEO from '../components/seo'
-import Navbar from "../components/nav"
 
+import Layout from '../components/layout'
+
+import logo from '../images/logoSIQ.svg'
+import Navbar from "../components/nav"
 import Popup from 'reactjs-popup';
 import BurgerIcon from '../components/BurguerIcon'
 import Menu from '../components/BurguerMenu'
 
+import Grid from '../components/grid'
+import Hero from '../components/hero'
 import Sobre from '../components/sobre'
 import Programacao from '../components/programacao'
+import Participantes from '../components/participantes'
 
 import ProgTabs from '../components/progTabs'
+
+import SliderPart from '../components/slider'
 
 const contentStyle = {
     background: 'rgba(0,0,0,0.0)',
@@ -60,6 +64,9 @@ export default ({ props }) => (
             <Programacao>
                 <ProgTabs />
             </Programacao>
+            <Participantes>
+                <SliderPart />
+            </Participantes>
         </Grid>
     </Layout>
 )
