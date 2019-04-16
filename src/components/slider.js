@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import participantesStyles from "../styles/participantes.module.scss"
+import "../styles/sliderstyles.scss"
 
 
 export default class SimpleSlider extends Component {
   render() {
     const settings = {
       dots: true,
+      dotsClass: "mnvdots",
       infinite: true,
       speed: 500,
       slidesToShow: 2,
@@ -14,10 +16,10 @@ export default class SimpleSlider extends Component {
       appendDots: dots => (
         <div
           style={{
-            padding: "10px"
+            padding: "10px",
           }}
         >
-          <ul style={{ margin: "0px", fontSize: "2rem" }}> {dots} </ul>
+          <ul style={{ margin: "0px" }}> {dots} </ul>
         </div>
       ),
       responsive: [
