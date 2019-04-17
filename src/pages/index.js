@@ -19,12 +19,15 @@ import ProgTabs from '../components/progTabs'
 
 import SliderPart from '../components/slider'
 
+import Contato from '../components/contato'
+import FormContato from "../components/formcontato"
+import Videos from '../components/videos'
+
 const contentStyle = {
     background: 'rgba(0,0,0,0.0)',
     width: '80%',
     border: 'none',
 };
-
 export default ({ props }) => (
     <Layout>
         <SEO title='SIQ 2019' keywords={[`SIQ`, `UFRJ`, `Quadrinhos`]} />
@@ -67,6 +70,10 @@ export default ({ props }) => (
             <Participantes>
                 <SliderPart />
             </Participantes>
+            <Contato>
+                <FormContato />
+            </Contato>
+            
         </Grid>
     </Layout>
 )

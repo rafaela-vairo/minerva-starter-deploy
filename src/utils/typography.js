@@ -6,7 +6,7 @@ const typography = new Typography({
   title: 'Minerva',
   baseFontSize: '18px',
   baseLineHeight: 1.75,
-  scaleRatio: 2.8,
+  scaleRatio: 2,
   googleFonts: [
     {
       name: 'Alegreya Sans',
