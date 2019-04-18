@@ -1,27 +1,18 @@
 import React from 'react'
 import SEO from '../components/seo'
-
 import Layout from '../components/layout'
-
 import logo from '../images/logoSIQ.svg'
 import Navbar from "../components/nav"
 import Popup from 'reactjs-popup';
 import BurgerIcon from '../components/BurguerIcon'
 import Menu from '../components/BurguerMenu'
-
 import Grid from '../components/grid'
 import Hero from '../components/hero'
 import Sobre from '../components/sobre'
 import Programacao from '../components/programacao'
-import Participantes from '../components/participantes'
-
-import ProgTabs from '../components/progTabs'
-
-import SliderPart from '../components/slider'
-
+import Tabs from '../components/tabs'
 import Contato from '../components/contato'
-import FormContato from "../components/formcontato"
-import Videos from '../components/videos'
+import Apoio from '../components/apoio'
 
 const contentStyle = {
     background: 'rgba(0,0,0,0.0)',
@@ -49,12 +40,13 @@ export default ({ props }) => (
                     <li><a href="#home">Home</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#programacao">Programação</a></li>
-                    <li><a href="#participantes">Participantes</a></li>
-                    <li><a href="#oficinas">Oficinas</a></li>
+                    {/* <li><a href="#participantes">Participantes</a></li> */}
+                    {/* <li><a href="#oficinas">Oficinas</a></li> */}
                     {/* <li><a href="#noticias">Notícias</a></li> */}
-                    <li><a href="#videos">Vídeos</a></li>
+                    {/*<li><a href="#videos">Vídeos</a></li> */}
                     {/* <li><a href="#blog">Blog</a></li> */}
                     <li><a href="#contato">Contato</a></li>
+                    <li><a href="#realiza">Realização</a></li>
                 </ul>
             </Navbar>
             <Sobre>
@@ -65,15 +57,10 @@ export default ({ props }) => (
                     10 de maio | UVA - Campus Tijuca / R. Ibituruna, 108 - Maracanã</p>
             </Sobre>
             <Programacao>
-                <ProgTabs />
+                <Tabs />
             </Programacao>
-            <Participantes>
-                <SliderPart />
-            </Participantes>
-            <Contato>
-                <FormContato />
-            </Contato>
-            
+            <Contato />
+            <Apoio />
         </Grid>
     </Layout>
 )

@@ -1,30 +1,46 @@
 .contato {
-    background-color: #fff;
+    //background-color: #fff;
+    padding: 2rem 11% 2rem 11%;
     grid-column: 1 / span 5;
-    display: grid;
-    grid-template-columns: repeat(9 , 1fr);
-    grid-auto-rows: auto;
     width: 100%;
-    min-height: 100vh;
     height: auto;
+    a:hover {
+        color: #fff;
+    }
+}
+
+.container {
+    @media (min-width: 721px) {
+        margin-top: 75px;
+    }
+    margin: 20px 0 45px 0;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    div {
+        @media (min-width: 600px) {
+            margin-right: 65px;
+        }
+        margin-right: 0px;
+    }
 }
 
 .titulo {
     @media (min-width: 721px) {
         margin-bottom: 5%;
-        margin-top: 5%;
     }
     margin-bottom: 3rem;
-    padding-top: 3rem;
+    width: 100%;
     span {
         display: flex;
         width: 100px;
-        border-bottom: 3px solid #FBB03B;
+        border-bottom: 3px solid #fff;
         margin-top: 15px;
     }
 }
 
-.container {
-    grid-column: 2 / span 7;
-    align-self: center;
-}
+.subtitulo {
+    color: #fff;
+  }
+
