@@ -58,6 +58,7 @@ function SEO({ description, lang, meta, keywords, title }) {
       link={[
         { rel: `shortcut icon`, href: `${favicon}`, type: `image/x-icon` },
         { rel: `stylesheet`, href: `https://fonts.googleapis.com/icon?family=Material+Icons` },
+        { rel: `stylesheet`, href: `https://use.fontawesome.com/releases/v5.0.10/css/all.css`, integrity: "sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg", crossorigin: "anonymous" },
         { rel: `stylesheet`, type: `text/css`, charset: `UTF-8`, href: `https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css` },
         { rel: `stylesheet`, type: `text/css`, href: `https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css` },
       ]}

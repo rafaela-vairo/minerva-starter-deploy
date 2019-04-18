@@ -18,11 +18,13 @@
     justify-content: left;
     flex-wrap: wrap;
     flex-flow: row wrap;
-    div {
+    > div {
         @media (min-width: 600px) {
             margin-right: 65px;
+            width: auto;
         }
         margin-right: 0px;
+        width: 80%;
     }
 }
 
@@ -43,4 +45,14 @@
 .subtitulo {
     color: #fff;
   }
+
+.social {
+    margin-right: 60vw;
+    margin-top: -15px;
+    display: flex;
+    font-size: 3rem;
+    width: 200px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
 
