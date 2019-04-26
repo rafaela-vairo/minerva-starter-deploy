@@ -26,7 +26,7 @@ export default ({ children }) => (
       </div>
       <div>
         <h2 className={contatoStyles.subtitulo}>E-mail</h2>
-        <p><a href="mailto:faleconosco@eco.ufrj.br">faleconosco@eco.ufrj.br</a></p>
+        <p><a href="mailto:siq@eco.ufrj.br">siq@eco.ufrj.br</a></p>
       </div>
       
     </div>

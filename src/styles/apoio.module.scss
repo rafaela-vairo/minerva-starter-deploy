@@ -9,7 +9,7 @@
     height: auto;
 }
   
-.titulo {
+.tituloa {
     @media (min-width: 721px) {
         margin-bottom: 5%;
         margin-top: 5%;
@@ -24,13 +24,27 @@
     }
 }
 
+.titulob {
+    @media (min-width: 721px) {
+        margin-bottom: 5%;
+    }
+    margin-bottom: 3rem;
+    padding-top: 0rem;
+    span {
+        display: flex;
+        width: 100px;
+        border-bottom: 3px solid #FBB03B;
+        margin-top: 15px;
+    }
+}
+
 .container {
     grid-column: 2 / span 7;
     align-self: center;
     img {
         @media (min-width: 400px) {
             height: 120px;
-            padding-right: 25px;
+            padding-right: 45px;
             margin-bottom: 100px;
         }
         height: 120px;
@@ -39,4 +53,10 @@
 
     }
     
+}
+
+.container{
+    .logospacer {
+        padding-right: 45px;
+    }
 }

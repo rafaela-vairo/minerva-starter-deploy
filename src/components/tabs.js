@@ -86,6 +86,7 @@ function FullWidthTabs() {
           <Tab label="quarta 08/05" disableRipple classes={{ root: classes.tabRoot, selected: classes.tabSelected }} />
           <Tab label="quinta 09/05" disableRipple classes={{ root: classes.tabRoot, selected: classes.tabSelected }} />
           <Tab label="sexta 10/05" disableRipple classes={{ root: classes.tabRoot, selected: classes.tabSelected }} />
+          <Tab label="sábado 11/05" disableRipple classes={{ root: classes.tabRoot, selected: classes.tabSelected }} />
         </Tabs>
       <SwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
@@ -96,25 +97,25 @@ function FullWidthTabs() {
                 <Table>
                     <ProgItem 
                         horario='10h - 12h'
-                        local=''
+                        local='Auditório Manoel Maurício'
                         titulo='Abertura'
                         texto='Gustavo Borges - Mediação Raphael Pinheiro'
                     />
                     <ProgItem 
                         horario='13h - 15h'
-                        local=''
-                        titulo='Oficina 1'
+                        local='ECO, Sala 105'
+                        titulo='Oficina Surpresa'
                         texto='Gustavo Borges'
                     />
                     <ProgItem 
                         horario='15h - 17h'
-                        local=''
+                        local='Auditório Manoel Maurício'
                         titulo='HQs em sala de aula - Lançamento do projeto "Com Machado nas Mãos"'
                         texto='Eduardo Calvet, Hamilton Kabuna, José Antônio Oliveira, Rapha Pinheiro, Thaís Linhares, Victor Almeida e William Cogo - Mediação Natania Nogueira'
                     />
                     <ProgItem 
                         horario='18h - 20h'
-                        local=''
+                        local='Auditório Manoel Maurício'
                         titulo='Cartum e posicionamento político'
                         texto='Aroeira e Ribs - Mediação Octavio Aragão'
                     />
@@ -126,19 +127,19 @@ function FullWidthTabs() {
                 <Table>
                     <ProgItem 
                         horario='10h - 12h'
-                        local=''
+                        local='Auditório Manoel Maurício'
                         titulo='Humor gráfico na Argentina'
                         texto='Mara Burkart - Mediação Octavio Aragão'
                     />
                     <ProgItem 
                         horario='13h - 15h'
-                        local=''
-                        titulo='Oficina 2'
+                        local='ECO, Sala 105'
+                        titulo='Oficina - Quadrinhos para educadores'
                         texto='Mig'
                     />
                     <ProgItem 
                         horario='15h - 17h'
-                        local=''
+                        local='Auditório Manoel Maurício'
                         titulo='Jornalismo em quadrinhos'
                         texto='Cida Calu, Ary Moraes e Aristides Correa Dutra - Mediação Nobu Chinen'
                     />
@@ -150,9 +151,9 @@ function FullWidthTabs() {
                     />
                     <ProgItem 
                         horario='18h - 20h'
-                        local=''
+                        local='Auditório Manoel Maurício'
                         titulo='A construção do cartunista'
-                        texto='Jaguar e Miguel Paiva - Mediação Cristina Rego Monteiro'
+                        texto='Jaguar, Miguel Paiva e André Dahmer - Mediação Cristina Rego Monteiro'
                     />
                 </Table>
                 <Local local='ECO UFRJ' rua=' - Campus da Praia Vermelha / Av. Pasteur, 250 - Urca' />
@@ -162,25 +163,25 @@ function FullWidthTabs() {
                 <Table>
                     <ProgItem 
                         horario='10h - 12h'
-                        local=''
+                        local='Auditório Manoel Maurício'
                         titulo='Quadrinhos e novas mídias na América Latina'
                         texto='Sebastian Gago - Mediação Amaury Fernandes'
                     />
                     <ProgItem 
                         horario='13h - 15h'
-                        local=''
-                        titulo='Oficina 3 - Como escrever ficção científica'
+                        local='ECO, Sala 105'
+                        titulo='Oficina - Worldbuilding em Literatura Fantástica'
                         texto='Luiz Felipe Vasques e Ana Lucia Merege'
                     />
                     <ProgItem 
                         horario='15h - 17h'
-                        local=''
+                        local='Auditório Manoel Maurício'
                         titulo='Editores de quadrinhos'
-                        texto='Guilherme Tolomei (Caligari) e Júlio Monteiro de Oliveira (Mythos) - Mediação Mário Feijó'
+                        texto='Guilherme Tolomei (Caligari), Arthur Vecchi (Avec), Raphael Fernandes (Draco) e Júlio Monteiro de Oliveira (Mythos) - Mediação Mário Feijó'
                     />
                     <ProgItem 
                         horario='18h - 20h'
-                        local=''
+                        local='Auditório Manoel Maurício'
                         titulo='Homenagem a Carlos Patati e João Carpalhau'
                         texto='Cerimônia de entrega do Prêmio LeBlanc 2019'
                     />
@@ -192,31 +193,61 @@ function FullWidthTabs() {
                 <Table>
                     <ProgItem 
                         horario='10h - 12h'
-                        local=''
+                        local='Auditório UVA'
                         titulo='Produção de Animacão no Brasil'
                         texto='Aida Queiroz e Patrícia Alves - Mediação Gika'
                     />
                     <ProgItem 
                         horario='13h - 15h'
-                        local=''
+                        local='ECO, Sala 105'
                         titulo='Oficina 4'
                         texto='Arthur Protásio'
                     />
                     <ProgItem 
                         horario='15h - 17h'
-                        local=''
+                        local='Auditório UVA'
                         titulo='AnimaNovos UVA 2018'
-                        texto='Sessão com os melhores curtas produzido em 2018 e bate papo com ex-alunos da UVA - Mediação Gabriel Cruz'
+                        texto='Bate-papo com Marcos Ramone - Mediação Prof. Gabriel Cruz (UVA)'
                     />
                     <ProgItem 
                         horario='18h - 20h'
-                        local=''
+                        local='Auditório UVA'
                         titulo='Combo Estúdio'
-                        texto='A trajetória do Combo Estúdio e seus projetos'
+                        texto='A trajetória do Combo Estúdio e seus projetos - Mediação Gika'
                     />
                 </Table>
                 <Local local='UVA' rua=' - Campus Tijuca / R. Ibituruna, 108 - Maracanã' />
                 <iframe title="Local4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2003.830870949564!2d-43.22251974240896!3d-22.91182367563941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e57963eedf3%3A0xaf52199fd71ffebb!2sVeiga+de+Almeida+University+-+UVA!5e0!3m2!1sen!2sbr!4v1555387824375!5m2!1sen!2sbr" width="800" height="600" frameborder="0" style={{border:0, width: '100%',}} allowfullscreen></iframe>
+        </TabContainer>
+        <TabContainer>
+                <Table>
+                    {/* <ProgItem 
+                        horario='10h - 12h'
+                        local=''
+                        titulo=''
+                        texto=''
+                    />
+                    <ProgItem 
+                        horario='13h - 15h'
+                        local=''
+                        titulo=''
+                        texto=''
+                    />
+                    <ProgItem 
+                        horario='15h - 17h'
+                        local=''
+                        titulo=''
+                        texto=''
+                    />
+                    <ProgItem 
+                        horario='18h - 20h'
+                        local=''
+                        titulo=''
+                        texto=''
+                    /> */}
+                </Table>
+                <Local local='SENAI Artes Gráficas' rua=' R. São Francisco Xavier, 417 - Maracanã' />
+                <iframe title="Local4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.9323487868073!2d-43.234768584475454!3d-22.9158659850073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e5d6048f8bf%3A0xaa665ca14c80eca7!2sFirjan+SENAI+SESI+Maracan%C3%A3!5e0!3m2!1sen!2sbr!4v1556311090324!5m2!1sen!2sbr" width="800" height="600" frameborder="0" style={{border:0, width: '100%',}} allowfullscreen></iframe>
         </TabContainer>
       </SwipeableViews>
     </div>
