@@ -11,9 +11,14 @@ import Grid from '../components/grid'
 import Hero from '../components/hero'
 import Sobre from '../components/sobre'
 import Programacao from '../components/programacao'
-import Tabs from '../components/tabs'
+import Oficinas from '../components/oficinas'
+import TabsPart from '../components/tabs'
+import TabsOfic from '../components/tabsofic'
 import Contato from '../components/contato'
 import Apoio from '../components/apoio'
+import Slider from '../components/slider'
+
+import Participantes from '../components/participantes'
 
 const contentStyle = {
     background: 'rgba(0,0,0,0.0)',
@@ -41,7 +46,7 @@ export default ({ props, data }) => (
                     <li><a href="#home">Home</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#programacao">Programação</a></li>
-                    {/* <li><a href="#participantes">Participantes</a></li> */}
+                    <li><a href="#participantes">Participantes</a></li>
                     {/* <li><a href="#oficinas">Oficinas</a></li> */}
                     {/* <li><a href="#noticias">Notícias</a></li> */}
                     {/*<li><a href="#videos">Vídeos</a></li> */}
@@ -55,12 +60,18 @@ export default ({ props, data }) => (
                 <p style={{fontSize: '1.2rem'}}>{data.site.siteMetadata.description}</p>
                 <h3 style={{color: '#fff'}}>07 a 10 de maio <span style={{display: 'inline-flex',width: '5rem', borderBottom: '3px solid #fff', margin: '5px'}}></span></h3>
                 <p>07 a 09 de maio | ECO UFRJ - Campus da Praia Vermelha / Av. Pasteur, 250 - Urca <br></br>
-                    10 de maio | UVA - Campus Tijuca / R. Ibituruna, 108 - Maracanã<br></br>
+                    10 de maio | UVA - Campus Tijuca / R. Ibituruna, 108 - Maracanã <br></br> 
                     11 de maio | SENAI Artes Gráficas / R. São Francisco Xavier, 417 - Maracanã</p>
             </Sobre>
             <Programacao>
-                <Tabs />
+                <TabsPart />
             </Programacao>
+            <Participantes>
+                <Slider />
+            </Participantes>
+            <Oficinas>
+                <TabsOfic />
+            </Oficinas>
             <Contato />
             <Apoio />
         </Grid>

@@ -104,7 +104,7 @@ function FullWidthTabs() {
                     <ProgItem 
                         horario='13h - 15h'
                         local='ECO, Sala 105'
-                        titulo='Oficina Surpresa'
+                        titulo='Oficina - A importância do silêncio nos quadrinhos'
                         texto='Gustavo Borges'
                     />
                     <ProgItem 
@@ -195,14 +195,14 @@ function FullWidthTabs() {
                         horario='10h - 12h'
                         local='Auditório UVA'
                         titulo='Produção de Animacão no Brasil'
-                        texto='Aida Queiroz e Patrícia Alves - Mediação Gika'
+                        texto='Patrícia Alves Dias, Aida Queiroz, Gika e Rosana Urbes - Mediação Profa Claudia Bolshaw (PUC-Rio)'
                     />
-                    <ProgItem 
+                    {/* <ProgItem 
                         horario='13h - 15h'
                         local='ECO, Sala 105'
                         titulo='Oficina 4'
                         texto='Arthur Protásio'
-                    />
+                    /> */}
                     <ProgItem 
                         horario='15h - 17h'
                         local='Auditório UVA'
