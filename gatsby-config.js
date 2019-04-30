@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Semana Internacional de Quadrinhos da UFRJ`,
-    description: `A Semana Internacional de Quadrinhos da UFRJ, que acontecerá entre os dias 2 a 5 de maio, no Campus Praia Vermelha da UFRJ, apresenta uma programação voltada para os apaixonados e estudiosos das histórias em quadrinhos.`,
+    description: `Nascida como um evento internacional de Quadrinhos em 2016, a SIQ é hoje um verdadeiro encontro interdisciplinar de cultura pop aproximando mercado e academia ao promover no ambiente universitário palestras, oficinas, mesas redondas, exposições sobre quadrinhos, animação, cinema e literatura.`,
     author: `Equipe Web CoordCom/UFRJ`,
   },
   plugins: [

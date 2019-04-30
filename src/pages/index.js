@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import SEO from '../components/seo'
 import Layout from '../components/layout'
 import logo from '../images/logoSIQ.svg'
@@ -19,7 +20,7 @@ const contentStyle = {
     width: '80%',
     border: 'none',
 };
-export default ({ props }) => (
+export default ({ props, data }) => (
     <Layout>
         <SEO title='SIQ 2019' keywords={[`SIQ`, `UFRJ`, `Quadrinhos`]} />
         <Popup
@@ -51,7 +52,7 @@ export default ({ props }) => (
             </Navbar>
             <Sobre>
                 <h2>Semana Internacional de Quadrinhos <strong style={{color: '#fff'}}>2019</strong></h2>
-                <p style={{fontSize: '1.2rem'}}>Nascida como um evento internacional de Quadrinhos em 2016, a SIQ é hoje um verdadeiro encontro interdisciplinar de cultura pop aproximando mercado e academia ao promover no ambiente universitário palestras, oficinas, mesas redondas, exposições sobre quadrinhos, animação, cinema e literatura.</p>
+                <p style={{fontSize: '1.2rem'}}>{data.site.siteMetadata.description}</p>
                 <h3 style={{color: '#fff'}}>07 a 10 de maio <span style={{display: 'inline-flex',width: '5rem', borderBottom: '3px solid #fff', margin: '5px'}}></span></h3>
                 <p>07 a 09 de maio | ECO UFRJ - Campus da Praia Vermelha / Av. Pasteur, 250 - Urca <br></br>
                     10 de maio | UVA - Campus Tijuca / R. Ibituruna, 108 - Maracanã</p>
@@ -64,4 +65,14 @@ export default ({ props }) => (
         </Grid>
     </Layout>
 )
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        description
+      }
+    }
+  }
+`
 
