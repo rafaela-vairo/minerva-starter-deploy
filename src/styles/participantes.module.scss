@@ -13,7 +13,10 @@
 .slides {
   grid-column: 2 / span 7;
   align-self: center;
-  margin-bottom: 5rem;
+  margin-bottom: 0rem;
+  @media (min-width: 1550px) {
+    margin-bottom: 5rem;
+  }
   > div {
     @media (min-width: 1550px) {
       padding: 3rem;

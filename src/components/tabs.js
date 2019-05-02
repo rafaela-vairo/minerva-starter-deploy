@@ -206,7 +206,7 @@ function FullWidthTabs() {
                     <ProgItem 
                         horario='15h - 17h'
                         local='Auditório UVA'
-                        titulo='AnimaNovos UVA 2018'
+                        titulo='AnimaNovos UVA 2019'
                         texto='Bate-papo com Marcos Ramone - Mediação Prof. Gabriel Cruz (UVA)'
                     />
                     <ProgItem 

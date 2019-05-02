@@ -6,8 +6,6 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 //import Typography from '@material-ui/core/Typography';
 
-import Table from './table'
-import Local from './local'
 import OficItem from "./oficItem"
 
 const primary = '#FBB03B';
@@ -93,29 +91,14 @@ function FullWidthTabs() {
         onChangeIndex={handleChangeIndex}
       >
         <TabContainer dir={theme.direction}>
-        <h1>A importância do silêncio nos quadrinhos</h1>
-        <Table>
-            <OficItem
-                titulo=''
-                por='Ministrada por Gustavo Borges'
-                horario='13h - 15h'
-                local='ECO UFRJ'
-                texto='O autor indicado ao Eisner propõe um exercício de narrativa se utilizando do silêncio nos quadrinhos para contar histórias.'
-                link=''
-             />
-        </Table>
-        </TabContainer>
-        <TabContainer dir={theme.direction}>
-        <h1>Oficina 2</h1>
-        <Table></Table>
-        </TabContainer>
-        <TabContainer dir={theme.direction}>
-        <h1>Oficina 3</h1>
-        <Table></Table>
-        </TabContainer>
-        <TabContainer dir={theme.direction}>
-        <h1>Oficina 4</h1>
-        <Table></Table>
+          <OficItem
+              subtitulo='A importância do silêncio nos quadrinhos'
+              por='Gustavo Borges'
+              horario='13h - 15h'
+              local='ECO UFRJ'
+              texto='O autor indicado ao Eisner propõe um exercício de narrativa se utilizando do silêncio nos quadrinhos para contar histórias.'
+              link=''
+            />
         </TabContainer>
       </SwipeableViews >
     </div>

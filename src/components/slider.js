@@ -7,7 +7,6 @@ import profile1 from "../images/Aída Queiroz.jpeg"
 import profile2 from "../images/Ana Lúcia Merege.jpg"
 import profile3 from "../images/André Dahmer.jpg"
 import profile4 from "../images/Aristides Correa Dutra.jpg"
-import profile5 from "../images/Arthur Protasio edit.jpg"
 import profile6 from "../images/Arthur Vecchi.jpg"
 
 import profile7 from "../images/Ary Moraes 2.jpg"
@@ -81,13 +80,6 @@ export default class SimpleSlider extends Component {
               <div>
                 <h2 className={participantesStyles.subtitulo}>Aristides Correa Dutra <span></span></h2>
                 <p>Mestre em Comunicação pela Universidade Federal do Rio de Janeiro (UFRJ) e artista plástico pela Universidade Federal do Espírito Santo (UFES), Aristides Correa Dutra é professor na pós-graduação em Produção de Moda da Universidade Candido Mendes e de Design de Moda da Universidade Veiga de Almeida.</p>
-              </div>
-          </div>
-          <div className={participantesStyles.slidecard}>
-              <img src={profile5} alt="alt text"/>
-              <div>
-                <h2 className={participantesStyles.subtitulo}>Arthur Protasio <span></span></h2>
-                <p>Mestre em Design e formado em Direito pela Pontifícia Universidade Católica (PUC-Rio), Arthur Protasio é fundador e diretor de criação da Fableware, produtora de conteúdo narrativo especializada em escrever roteiros e desenvolver histórias para projetos multiplataforma e transmídia nos ramos de entretenimento, educação e publicidade.</p>
               </div>
           </div>
           <div className={participantesStyles.slidecard}>

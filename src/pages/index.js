@@ -13,7 +13,7 @@ import Sobre from '../components/sobre'
 import Programacao from '../components/programacao'
 import Oficinas from '../components/oficinas'
 import TabsPart from '../components/tabs'
-import TabsOfic from '../components/tabsofic'
+
 import Contato from '../components/contato'
 import Apoio from '../components/apoio'
 import Slider from '../components/slider'
@@ -47,7 +47,7 @@ export default ({ props, data }) => (
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#programacao">Programação</a></li>
                     <li><a href="#participantes">Participantes</a></li>
-                    {/* <li><a href="#oficinas">Oficinas</a></li> */}
+                    <li><a href="#oficinas">Oficinas</a></li>
                     {/* <li><a href="#noticias">Notícias</a></li> */}
                     {/*<li><a href="#videos">Vídeos</a></li> */}
                     {/* <li><a href="#blog">Blog</a></li> */}
@@ -69,9 +69,7 @@ export default ({ props, data }) => (
             <Participantes>
                 <Slider />
             </Participantes>
-            <Oficinas>
-                <TabsOfic />
-            </Oficinas>
+            <Oficinas />
             <Contato />
             <Apoio />
         </Grid>
