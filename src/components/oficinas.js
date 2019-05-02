@@ -28,7 +28,7 @@ export class OficItem extends Component {
               <address className={oficItemStyles.local}> <i class="fas fa-map-marker-alt"></i> {props.local}</address>
             </p>
             <p className={oficItemStyles.texto}>{props.texto}</p>
-            <a className={oficItemStyles.link} href={props.link}>Inscreva-se aqui</a>
+            <a className={oficItemStyles.link} href={props.link}>Em breve link para inscrição</a>
         </div>
       </div>
     )
@@ -36,13 +36,7 @@ export class OficItem extends Component {
 }
 
 OficItem.defaultProps = {
-  subtitulo:`—`,
-  por:`—`,
-  data:`—`,
-  horario:`—`,
-  local:`—`,
-  texto:`—`,
-  link:`—`,
+  link:`/404`,
 }
 
 OficItem.propTypes = {
@@ -122,7 +116,7 @@ export class SimpleSlider extends Component {
           <div className={oficItemStyles.slidecard}>
             <OficItem
                 subtitulo='Oficina 4'
-                // por=''
+                por='—'
                 data='10 de maio'
                 horario='13h - 15h'
                 local='UVA / Tijuca'
@@ -133,7 +127,7 @@ export class SimpleSlider extends Component {
           <div className={oficItemStyles.slidecard}>
             <OficItem
                 subtitulo='Oficina 5'
-                // por=''
+                por='—'
                 data='11 de maio'
                 horario='13h - 15h'
                 local='Senai Artes Gráficas'
