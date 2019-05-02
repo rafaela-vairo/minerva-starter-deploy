@@ -98,7 +98,7 @@ export class SimpleSlider extends Component {
                 data='08 de maio'
                 horario='13-15h'
                 local='ECO / UFRJ'
-                texto='A proposta é ajudar educadores a utilizar criativamente histórias em quadrinhos em qualquer atividade pedagógica, em grupo ou atuação solo, por meio de exercícios guiados.'
+                texto='A proposta é ajudar educadores a utilizar criativamente histórias em quadrinhos em qualquer atividade pedagógica, em grupo ou atuação solo, por meio de exercícios guiados pelo ilustrador Mig.'
                 // link=''
                 />
           </div>
@@ -115,23 +115,23 @@ export class SimpleSlider extends Component {
           </div>
           <div className={oficItemStyles.slidecard}>
             <OficItem
-                subtitulo='Oficina 4'
-                por='—'
-                data='10 de maio'
+                subtitulo='Pintura Digital para HQ'
+                por='Pedro Barreto'
+                data='11 de maio'
                 horario='13h - 15h'
-                local='UVA / Tijuca'
-                // texto=''
+                local='Senai Artes Gráficas'
+                texto='O ilustrador e animador Pedro Barreto, docente da Firjan Senai Maracanã que participou da série animada Super Drags, irá abordar um passo a passo sobre a prática da pintura digital, com dicas sobre iluminação, sombras e cores a fim de encantar os leitores de HQs impressas ou digitais.'
                 // link=''
                 />
           </div>
           <div className={oficItemStyles.slidecard}>
             <OficItem
-                subtitulo='Oficina 5'
-                por='—'
+                subtitulo='Ilustração Vetorial para HQ'
+                por='André Flauzino'
                 data='11 de maio'
-                horario='13h - 15h'
+                horario='13:30 - 15:30'
                 local='Senai Artes Gráficas'
-                // texto=''
+                texto='A ilustração vetorial tem sido fundamental para a criação de todo bom projeto gráfico de HQs. O designer e ilustrador André Flauzino, docente da Firjan Senai Maracanã, irá abordar o processo de criação vetorial de personagens para HQs. Nessa oficina, o especialista apresentará dicas de construção de personagens, expressões faciais e movimento.'
                 // link=''
                 />
           </div>

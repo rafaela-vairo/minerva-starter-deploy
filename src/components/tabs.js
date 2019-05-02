@@ -221,30 +221,18 @@ function FullWidthTabs() {
         </TabContainer>
         <TabContainer>
                 <Table>
-                    {/* <ProgItem 
-                        horario='10h - 12h'
-                        local=''
-                        titulo=''
-                        texto=''
-                    />
                     <ProgItem 
                         horario='13h - 15h'
                         local=''
-                        titulo=''
-                        texto=''
+                        titulo='Pintura Digital para HQ'
+                        texto='Pedro Barreto'
                     />
                     <ProgItem 
-                        horario='15h - 17h'
+                        horario='13:30 - 15:30'
                         local=''
-                        titulo=''
-                        texto=''
+                        titulo='Ilustração Vetorial para HQ'
+                        texto='André Flauzino'
                     />
-                    <ProgItem 
-                        horario='18h - 20h'
-                        local=''
-                        titulo=''
-                        texto=''
-                    /> */}
                 </Table>
                 <Local local='SENAI Artes Gráficas' rua=' R. São Francisco Xavier, 417 - Maracanã' />
                 <iframe title="Local4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.9323487868073!2d-43.234768584475454!3d-22.9158659850073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e5d6048f8bf%3A0xaa665ca14c80eca7!2sFirjan+SENAI+SESI+Maracan%C3%A3!5e0!3m2!1sen!2sbr!4v1556311090324!5m2!1sen!2sbr" width="800" height="600" frameborder="0" style={{border:0, width: '100%',}} allowfullscreen></iframe>
