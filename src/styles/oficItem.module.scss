@@ -18,6 +18,23 @@
             padding-right: 5px;
         }
     }
+    a {
+        text-decoration: none;
+        .button {
+            margin-top: 1.75rem;
+            font-family: inherit;
+            font-size: inherit;
+            font-weight: 700;
+            &:hover {
+                border-bottom: 2px solid #FBB03B;
+            }
+            border-bottom: 2px solid rgba(255, 255, 255, 0);
+            //text-transform: inherit;
+            color: #FBB03B;
+            border-radius: 0px;
+            
+        }
+    }
     div {
         border: 2px solid #FBB03B;
         border-radius: 3px;

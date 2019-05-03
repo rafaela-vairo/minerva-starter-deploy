@@ -61,7 +61,7 @@ export default ({ props, data }) => (
                 <h3 style={{color: '#fff'}}>07 a 10 de maio <span style={{display: 'inline-flex',width: '5rem', borderBottom: '3px solid #fff', margin: '5px'}}></span></h3>
                 <p>07 a 09 de maio | ECO UFRJ - Campus da Praia Vermelha / Av. Pasteur, 250 - Urca <br></br>
                     10 de maio | UVA - Campus Tijuca / R. Ibituruna, 108 - Maracanã <br></br> 
-                    11 de maio | SENAI Artes Gráficas / R. São Francisco Xavier, 417 - Maracanã</p>
+                    11 de maio | Firjan SENAI Maracanã / R. São Francisco Xavier, 417 - Maracanã</p>
             </Sobre>
             <Programacao>
                 <TabsPart />

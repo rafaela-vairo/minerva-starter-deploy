@@ -195,14 +195,14 @@ function FullWidthTabs() {
                         horario='10h - 12h'
                         local='Auditório UVA'
                         titulo='Produção de Animacão no Brasil'
-                        texto='Patrícia Alves Dias, Aida Queiroz, Gika e Rosana Urbes - Mediação Profa Claudia Bolshaw (PUC-Rio)'
+                        texto='Aida Queiroz, Gika e Rosana Urbes - Mediação Profa Claudia Bolshaw (PUC-Rio)'
                     />
-                    {/* <ProgItem 
+                    <ProgItem 
                         horario='13h - 15h'
-                        local='ECO, Sala 105'
-                        titulo='Oficina 4'
-                        texto='Arthur Protásio'
-                    /> */}
+                        local='UVA'
+                        titulo='O cenário como personagem'
+                        texto='Raphael Pinheiro'
+                    />
                     <ProgItem 
                         horario='15h - 17h'
                         local='Auditório UVA'
@@ -223,15 +223,21 @@ function FullWidthTabs() {
                 <Table>
                     <ProgItem 
                         horario='13h - 15h'
-                        local=''
+                        local='Senai'
                         titulo='Pintura Digital para HQ'
                         texto='Pedro Barreto'
                     />
                     <ProgItem 
-                        horario='13:30 - 15:30'
-                        local=''
+                        horario='09:30 - 11:30'
+                        local='Senai'
                         titulo='Ilustração Vetorial para HQ'
                         texto='André Flauzino'
+                    />
+                    <ProgItem 
+                        horario='13:30 - 15:30'
+                        local='Senai'
+                        titulo='Quadrinhos na Argentina - o nascimento dos comics de autor'
+                        texto='Sebastian Gago - Mediação Amaury Fernandes'
                     />
                 </Table>
                 <Local local='SENAI Artes Gráficas' rua=' R. São Francisco Xavier, 417 - Maracanã' />
