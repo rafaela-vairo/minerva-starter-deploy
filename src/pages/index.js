@@ -13,13 +13,9 @@ import Sobre from '../components/sobre'
 import Programacao from '../components/programacao'
 import Oficinas from '../components/oficinas'
 import TabsPart from '../components/tabs'
-
 import Carousel from '../components/alicecarousel'
-
 import Contato from '../components/contato'
 import Apoio from '../components/apoio'
-import Slider from '../components/slider'
-
 import Participantes from '../components/participantes'
 
 const contentStyle = {
@@ -67,9 +63,9 @@ export default ({ props, data }) => (
             <Programacao>
                 <TabsPart />
             </Programacao>
-            {/* <Participantes>
+            <Participantes>
                 <Carousel />
-            </Participantes> */}
+            </Participantes>
             <Oficinas />
             <Contato />
             <Apoio />

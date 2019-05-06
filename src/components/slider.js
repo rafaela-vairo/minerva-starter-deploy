@@ -113,7 +113,7 @@ export default class SimpleSlider extends Component {
           <div className={participantesStyles.slidecard}>
             <img src={profile10} alt="alt text"/>
             <div>
-              <h2 className={participantesStyles.subtitulo}>Gika <span></span></h2>
+              <h2 className={participantesStyles.subtitulo}>Gika Carvalho <span></span></h2>
               <p>Mestre em Educação (UFRRJ), Gika cursou a Escola de Belas Artes (UFRJ) e é formada em Desenho Industrial pela Universidade da Cidade, com complementação pedagógica na Faculdade de Educação (UERJ). Tendo atuado em variadas produções de animações, foi assistente de direção geral da versão animada do Sítio do Pica-pau Amarelo.</p>
             </div>
           </div>

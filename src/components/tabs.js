@@ -194,7 +194,7 @@ function FullWidthTabs() {
                         horario='10h - 12h'
                         local='Auditório UVA'
                         titulo='Produção de Animacão no Brasil'
-                        texto='Aida Queiroz, Gika e Rosana Urbes - Mediação Profa Claudia Bolshaw (PUC-Rio)'
+                        texto='Aida Queiroz, Gika Carvalho e Rosana Urbes - Mediação Profa Claudia Bolshaw (PUC-Rio)'
                     />
                     <ProgItem 
                         horario='13h - 15h'
@@ -212,7 +212,7 @@ function FullWidthTabs() {
                         horario='18h - 20h'
                         local='Auditório UVA'
                         titulo='Combo Estúdio'
-                        texto='A trajetória do Combo Estúdio e seus projetos - Mediação Gika'
+                        texto='A trajetória do Combo Estúdio e seus projetos - Mediação Gika Carvalho'
                     />
                 </Table>
                 <Local local='UVA' rua=' - Campus Tijuca / R. Ibituruna, 108 - Maracanã' />
