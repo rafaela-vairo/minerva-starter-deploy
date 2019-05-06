@@ -124,26 +124,6 @@ export class SimpleSlider extends Component {
                 // texto=''
                 ><a className={oficItemStyles.link} href='https://docs.google.com/forms/d/e/1FAIpQLSdCmw76_Ju8EcDHnll2MH9Ke7fLiV0jtj4WK-w-vDs88F0Gtg/viewform'><Button className={oficItemStyles.button}>Inscreva-se aqui!</Button></a></OficItem>
           </div>
-          <div className={oficItemStyles.slidecard}>
-            <OficItem
-                subtitulo='Pintura Digital para HQ'
-                por='Pedro Barreto'
-                data='11 de maio'
-                horario='09:30 - 11:30'
-                local='Senai Artes Gráficas'
-                texto='O ilustrador e animador Pedro Barreto, docente da Firjan Senai Maracanã que participou da série animada Super Drags, irá abordar um passo a passo sobre a prática da pintura digital, com dicas sobre iluminação, sombras e cores a fim de encantar os leitores de HQs impressas ou digitais.'
-                ><a className={oficItemStyles.link} href='#oficinas'><Button disabled className={oficItemStyles.button}>Embreve link para inscrições</Button></a></OficItem>
-          </div>
-          <div className={oficItemStyles.slidecard}>
-            <OficItem
-                subtitulo='Ilustração Vetorial para HQ'
-                por='André Flauzino'
-                data='11 de maio'
-                horario='13:30 - 15:30'
-                local='Senai Artes Gráficas'
-                texto='A ilustração vetorial tem sido fundamental para a criação de todo bom projeto gráfico de HQs. O designer e ilustrador André Flauzino, docente da Firjan Senai Maracanã, irá abordar o processo de criação vetorial de personagens para HQs. Nessa oficina, o especialista apresentará dicas de construção de personagens, expressões faciais e movimento.'
-                ><a className={oficItemStyles.link} href='#oficinas'><Button disabled className={oficItemStyles.button}>Embreve link para inscrições</Button></a></OficItem>
-          </div>
         </Slider>
     );
   }

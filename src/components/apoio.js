@@ -19,7 +19,6 @@ export default ({ children }) => (
       <h1 className={apoioStyles.tituloa}>Apoio <span></span></h1>
       <img className={apoioStyles.logospacer} src={logoPPGTLCOM} alt="Logo PPGTLCOM"/>
       <img src={logoCFCH} alt="Logo CFCH"/>
-      <img src={logoFirjan} alt="Logo Firjan"/>
       <img src={logoSeteXis} alt="Logo 7x+"/>
       <img src={logoRiobooks} alt="Logo Riobooks"/>
       <h1 className={apoioStyles.titulob}>Realização <span></span></h1>

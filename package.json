@@ -40,7 +40,10 @@
     "typography-theme-kirkham": "^0.16.19"
   },
   "devDependencies": {
-    "prettier": "^1.17.0"
+    "jquery": "^3.4.1",
+    "prettier": "^1.17.0",
+    "react-alice-carousel": "^1.13.11",
+    "typescript": "^3.4.5"
   },
   "repository": {
     "type": "git",

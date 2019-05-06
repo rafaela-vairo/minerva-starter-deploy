@@ -1,0 +1,12 @@
+.alice-carousel__dots-item {
+    width: 1rem;
+    height: 1rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    &.__active {
+        background-color: rgb(0, 0, 0);
+    }
+    &:hover {
+        background-color: rgb(255, 255, 255);
+    }
+}
+

@@ -86,7 +86,6 @@ function FullWidthTabs() {
           <Tab label="quarta 08/05" disableRipple classes={{ root: classes.tabRoot, selected: classes.tabSelected }} />
           <Tab label="quinta 09/05" disableRipple classes={{ root: classes.tabRoot, selected: classes.tabSelected }} />
           <Tab label="sexta 10/05" disableRipple classes={{ root: classes.tabRoot, selected: classes.tabSelected }} />
-          <Tab label="sábado 11/05" disableRipple classes={{ root: classes.tabRoot, selected: classes.tabSelected }} />
         </Tabs>
       <SwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
@@ -144,12 +143,6 @@ function FullWidthTabs() {
                         texto='Cida Calu, Ary Moraes e Aristides Correa Dutra - Mediação Nobu Chinen'
                     />
                     <ProgItem 
-                        horario='16h - 20h'
-                        local=''
-                        titulo='Mostra BUG Pocket de Animações em VR'
-                        texto=''
-                    />
-                    <ProgItem 
                         horario='18h - 20h'
                         local='Auditório Manoel Maurício'
                         titulo='A construção do cartunista'
@@ -185,6 +178,12 @@ function FullWidthTabs() {
                         titulo='Homenagem a Carlos Patati e João Carpalhau'
                         texto='Cerimônia de entrega do Prêmio LeBlanc 2019'
                     />
+                    <ProgItem 
+                        horario='18h - 21h'
+                        local='Lab de TV e Vídeo / CPM ECO'
+                        titulo='Mostra BUG Pocket de Animações em VR'
+                        texto=''
+                    />
                 </Table>
                 <Local local='ECO UFRJ' rua=' - Campus da Praia Vermelha / Av. Pasteur, 250 - Urca' />
                 <iframe title="Local3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1336.9938228395688!2d-43.174743252809705!3d-22.95262258344815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997ff614120d07%3A0x15177b8270b12e06!2sSchool+of+Communication+at+UFRJ!5e0!3m2!1sen!2sbr!4v1555387250501!5m2!1sen!2sbr" width="800" height="600" frameborder="0" style={{border:0, width: '100%',}} allowfullscreen></iframe>
@@ -200,7 +199,7 @@ function FullWidthTabs() {
                     <ProgItem 
                         horario='13h - 15h'
                         local='UVA'
-                        titulo='O cenário como personagem'
+                        titulo='Oficina - O cenário como personagem'
                         texto='Raphael Pinheiro'
                     />
                     <ProgItem 
@@ -218,30 +217,6 @@ function FullWidthTabs() {
                 </Table>
                 <Local local='UVA' rua=' - Campus Tijuca / R. Ibituruna, 108 - Maracanã' />
                 <iframe title="Local4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2003.830870949564!2d-43.22251974240896!3d-22.91182367563941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e57963eedf3%3A0xaf52199fd71ffebb!2sVeiga+de+Almeida+University+-+UVA!5e0!3m2!1sen!2sbr!4v1555387824375!5m2!1sen!2sbr" width="800" height="600" frameborder="0" style={{border:0, width: '100%',}} allowfullscreen></iframe>
-        </TabContainer>
-        <TabContainer>
-                <Table>
-                    <ProgItem 
-                        horario='13h - 15h'
-                        local='Senai'
-                        titulo='Pintura Digital para HQ'
-                        texto='Pedro Barreto'
-                    />
-                    <ProgItem 
-                        horario='09:30 - 11:30'
-                        local='Senai'
-                        titulo='Ilustração Vetorial para HQ'
-                        texto='André Flauzino'
-                    />
-                    <ProgItem 
-                        horario='13:30 - 15:30'
-                        local='Senai'
-                        titulo='Quadrinhos na Argentina - o nascimento dos comics de autor'
-                        texto='Sebastian Gago - Mediação Amaury Fernandes'
-                    />
-                </Table>
-                <Local local='SENAI Artes Gráficas' rua=' R. São Francisco Xavier, 417 - Maracanã' />
-                <iframe title="Local4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.9323487868073!2d-43.234768584475454!3d-22.9158659850073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e5d6048f8bf%3A0xaa665ca14c80eca7!2sFirjan+SENAI+SESI+Maracan%C3%A3!5e0!3m2!1sen!2sbr!4v1556311090324!5m2!1sen!2sbr" width="800" height="600" frameborder="0" style={{border:0, width: '100%',}} allowfullscreen></iframe>
         </TabContainer>
       </SwipeableViews>
     </div>

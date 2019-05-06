@@ -11,7 +11,6 @@
 }
 
 .slides {
-  grid-column: 2 / span 7;
   align-self: center;
   margin-bottom: 0rem;
   @media (min-width: 1550px) {
@@ -25,8 +24,6 @@
     
   }
   img {
-    grid-column-start: 1;
-    grid-row: 1 / span 2;
     object-fit: cover;
     width: 100%;
     @media (min-width: 721px) {
@@ -83,4 +80,17 @@
 .texto {
   grid-column: 2 / span 7;
   align-self: center;
+}
+
+.slidebuttonright {
+  float: right;
+  clear: right;
+  left: 8rem;
+}
+
+.slidebuttonleft {
+  left: -8rem;
+}
+
+.slidecontainer {
 }

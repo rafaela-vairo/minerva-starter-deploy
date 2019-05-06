@@ -14,6 +14,8 @@ import Programacao from '../components/programacao'
 import Oficinas from '../components/oficinas'
 import TabsPart from '../components/tabs'
 
+import Carousel from '../components/alicecarousel'
+
 import Contato from '../components/contato'
 import Apoio from '../components/apoio'
 import Slider from '../components/slider'
@@ -58,20 +60,20 @@ export default ({ props, data }) => (
             <Sobre>
                 <h2>Semana Internacional de Quadrinhos <strong style={{color: '#fff'}}>2019</strong></h2>
                 <p style={{fontSize: '1.2rem'}}>{data.site.siteMetadata.description}</p>
-                <h3 style={{color: '#fff'}}>07 a 11 de maio <span style={{display: 'inline-flex',width: '5rem', borderBottom: '3px solid #fff', margin: '5px'}}></span></h3>
+                <h3 style={{color: '#fff'}}>07 a 10 de maio <span style={{display: 'inline-flex',width: '5rem', borderBottom: '3px solid #fff', margin: '5px'}}></span></h3>
                 <p>07 a 09 de maio | ECO UFRJ - Campus da Praia Vermelha / Av. Pasteur, 250 - Urca <br></br>
-                    10 de maio | UVA - Campus Tijuca / R. Ibituruna, 108 - Maracanã <br></br> 
-                    11 de maio | Firjan SENAI Maracanã / R. São Francisco Xavier, 417 - Maracanã</p>
+                    10 de maio | UVA - Campus Tijuca / R. Ibituruna, 108 - Maracanã</p>.
             </Sobre>
             <Programacao>
                 <TabsPart />
             </Programacao>
-            <Participantes>
-                <Slider />
-            </Participantes>
+            {/* <Participantes>
+                <Carousel />
+            </Participantes> */}
             <Oficinas />
             <Contato />
             <Apoio />
+            
         </Grid>
     </Layout>
 )
