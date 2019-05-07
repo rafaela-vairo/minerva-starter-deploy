@@ -1,4 +1,7 @@
+@import './colors';
+
 .sobre {
+    background-color: $branco;
     grid-column: 1 / span 5;
     display: grid;
     @media (min-width: 1170px) {
@@ -27,4 +30,6 @@
     grid-column: 2 / span 5;
     align-self: center;
 }
+
+
 

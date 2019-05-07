@@ -1,5 +1,10 @@
+@import './colors';
+
+$primaria: white;
+$branco: #FBB03B;
+
 .programacao {
-    background-color: #fff;
+    background-color: $branco;
     grid-column: 1 / span 5;
     display: grid;
     grid-template-columns: repeat(9 , 1fr);
@@ -19,7 +24,7 @@
     span {
         display: flex;
         width: 100px;
-        border-bottom: 3px solid #FBB03B;
+        border-bottom: 3px solid $primaria;
         margin-top: 15px;
     }
 }

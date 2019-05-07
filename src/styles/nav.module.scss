@@ -6,8 +6,10 @@ $indicatorHeight: 2px;
 .nav {
   @media (min-width: 850px) and (min-height: 850px) {
     visibility: visible;
+    height: auto;
   }
   visibility: hidden;
+  height: 85px;
   z-index: 9990;
   background: rgb(255, 255, 255);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);

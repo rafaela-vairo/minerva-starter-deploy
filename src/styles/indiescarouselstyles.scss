@@ -1,13 +1,13 @@
 @import './colors';
 
 $primaria: white;
-$branco: #FBB03B;
+$branco: #000;
 
 .alice-carousel__dots-item {
     width: 12px;
     height: 12px;
-    background-color: rgba($branco, 0);
-    border: 2px solid rgba($branco, 0.8);
+    background-color: branco;
+    border: 2px solid rgba( $branco, 0.4);
     &.__active {
         background-color: $branco;
     }

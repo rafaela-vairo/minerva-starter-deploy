@@ -1,9 +1,6 @@
 @import './colors';
 
-$primaria: white;
-$branco: #FBB03B;
-
-.participantes {
+.indies {
   background-color: $primaria;
   grid-column: 1 / span 5;
   display: block;
@@ -15,7 +12,7 @@ $branco: #FBB03B;
   }
   padding: 2.5rem;
 }
-
+  
 .slides {
   align-self: center;
   margin-bottom: 0rem;
@@ -50,7 +47,7 @@ $branco: #FBB03B;
   display: inline-block !important;
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: auto;
-  border: 2px solid rgba( $branco, 0.5);
+  border: 2px solid rgba( $branco, 0.8);
   border-radius: 3px !important;
   > div {
     padding: 1.5rem;

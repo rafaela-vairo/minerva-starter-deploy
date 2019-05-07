@@ -1,5 +1,11 @@
+@import './colors';
+
+$primaria: #FBB03B;
+$branco: white;
+$preto: black;
+
 .cellhead {
-    border-bottom: 3px solid #000;
+    border-bottom: 3px solid $preto;
     @media (min-width: 1170px) {
         width: 15%;
         padding-right: 1.67rem;
@@ -10,4 +16,8 @@
     padding-right: 0px;
     text-align: center;
     vertical-align: text-top;
+}
+
+.cell {
+    border-bottom: 2px solid rgba($preto, 0.3);
 }

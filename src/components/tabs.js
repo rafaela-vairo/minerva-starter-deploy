@@ -4,13 +4,14 @@ import SwipeableViews from 'react-swipeable-views';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-//import Typography from '@material-ui/core/Typography';
 
 import Table from './table'
 import Local from './local'
 import ProgItem from "./progItem"
 
 const primary = '#FBB03B';
+const secondary = '#fff';
+const tertiary = '#000';
 
 function TabContainer({ children, dir }) {
   return (
@@ -27,16 +28,17 @@ TabContainer.propTypes = {
 
 const useStyles = makeStyles(theme => ({
     root: {
-        backgroundColor: theme.palette.background.paper,
+        backgroundColor: primary,
       },
       tabsRoot: {
-        borderBottom: '1px solid #e8e8e8',
+        borderBottom: '2px solid ' + tertiary,
       },
       tabsIndicator: {
-        backgroundColor: '#111',
+        backgroundColor: tertiary,
         height: '100%',
       },
       tabRoot: {
+        color: tertiary,
         flexGrow: 1,
         zIndex: '99',
         textTransform: 'initial',
@@ -49,7 +51,7 @@ const useStyles = makeStyles(theme => ({
           'sans-serif',
         ].join(','),
         '&$tabSelected': {
-          color: primary,
+          color: secondary,
           fontWeight: theme.typography.fontWeightHeavy,
         },
       },
@@ -78,7 +80,7 @@ function FullWidthTabs() {
           value={value}
           onChange={handleChange}
           indicatorColor="primary"
-          textColor="primary"
+          textColor="inherit"
           variant="fullWidth"
           classes={{ root: classes.tabsRoot, indicator: classes.tabsIndicator }}
         >

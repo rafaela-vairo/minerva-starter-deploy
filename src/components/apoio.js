@@ -3,7 +3,6 @@ import apoioStyles from "../styles/apoio.module.scss"
 
 import logoPPGTLCOM from "../images/logos/ppgtlcom.png"
 import logoCFCH from "../images/logos/cfch_logo_menor.jpg"
-import logoFirjan from "../images/logos/FirjanSENAI.jpg"
 import logoSeteXis from "../images/logos/7X.svg"
 import logoRiobooks from "../images/logos/LOGOTIPO riobooks .jpg"
 
